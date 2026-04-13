@@ -1910,13 +1910,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
 
+* <a href="bots.checkUsername.html" name="bots.checkUsername">bots.checkUsername</a>
+
+* <a href="bots.createBot.html" name="bots.createBot">bots.createBot</a>
+
+* <a href="bots.exportBotToken.html" name="bots.exportBotToken">bots.exportBotToken</a>
+
+* <a href="bots.getRequestedWebViewButton.html" name="bots.getRequestedWebViewButton">bots.getRequestedWebViewButton</a>
+
+* <a href="bots.requestWebViewButton.html" name="bots.requestWebViewButton">bots.requestWebViewButton</a>
+
 * <a href="contacts.updateContactNote.html" name="contacts.updateContactNote">contacts.updateContactNote</a>
 
+* <a href="messages.addPollAnswer.html" name="messages.addPollAnswer">messages.addPollAnswer</a>
+
 * <a href="messages.checkUrlAuthMatchCode.html" name="messages.checkUrlAuthMatchCode">messages.checkUrlAuthMatchCode</a>
+
+* <a href="messages.composeMessageWithAI.html" name="messages.composeMessageWithAI">messages.composeMessageWithAI</a>
 
 * <a href="messages.createForumTopic.html" name="messages.createForumTopic">messages.createForumTopic</a>
 
 * <a href="messages.declineUrlAuth.html" name="messages.declineUrlAuth">messages.declineUrlAuth</a>
+
+* <a href="messages.deletePollAnswer.html" name="messages.deletePollAnswer">messages.deletePollAnswer</a>
 
 * <a href="messages.deleteTopicHistory.html" name="messages.deleteTopicHistory">messages.deleteTopicHistory</a>
 
@@ -1934,7 +1950,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getFutureChatCreatorAfterLeave.html" name="messages.getFutureChatCreatorAfterLeave">messages.getFutureChatCreatorAfterLeave</a>
 
+* <a href="messages.getUnreadPollVotes.html" name="messages.getUnreadPollVotes">messages.getUnreadPollVotes</a>
+
+* <a href="messages.readPollVotes.html" name="messages.readPollVotes">messages.readPollVotes</a>
+
 * <a href="messages.reorderPinnedForumTopics.html" name="messages.reorderPinnedForumTopics">messages.reorderPinnedForumTopics</a>
+
+* <a href="messages.reportMusicListen.html" name="messages.reportMusicListen">messages.reportMusicListen</a>
+
+* <a href="messages.reportReadMetrics.html" name="messages.reportReadMetrics">messages.reportReadMetrics</a>
 
 * <a href="messages.summarizeText.html" name="messages.summarizeText">messages.summarizeText</a>
 

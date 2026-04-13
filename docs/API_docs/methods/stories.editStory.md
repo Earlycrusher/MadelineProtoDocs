@@ -27,6 +27,7 @@ May also be used in a [business connection](https://core.telegram.org/api/bots/c
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | [Message entities for styled text in the caption](https://core.telegram.org/api/entities), if allowed by the [`stories_entities` client configuration parameter »](https://core.telegram.org/api/config#stories-entities). | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |privacy\_rules|Array of [InputPrivacyRule](/API_docs/types/InputPrivacyRule.html) | If specified, alters the [privacy settings »](https://core.telegram.org/api/privacy) of the story, changing who can or can't view the story. | Optional|
+|music|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -52,7 +53,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->stories->editStory(peer: $InputPeer, id: $int, media: $InputMedia, media_areas: [$MediaArea, $MediaArea], caption: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', privacy_rules: [$InputPrivacyRule, $InputPrivacyRule], );
+$Updates = $MadelineProto->stories->editStory(peer: $InputPeer, id: $int, media: $InputMedia, media_areas: [$MediaArea, $MediaArea], caption: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', privacy_rules: [$InputPrivacyRule, $InputPrivacyRule], music: $InputDocument, );
 ```
 
 

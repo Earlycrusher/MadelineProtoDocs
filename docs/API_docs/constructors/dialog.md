@@ -25,6 +25,7 @@ Chat
 |unread\_count|[int](/API_docs/types/int.html) | Yes|Number of unread messages|
 |unread\_mentions\_count|[int](/API_docs/types/int.html) | Yes|Number of [unread mentions](https://core.telegram.org/api/mentions)|
 |unread\_reactions\_count|[int](/API_docs/types/int.html) | Yes|Number of unread reactions to messages you sent|
+|unread\_poll\_votes\_count|[int](/API_docs/types/int.html) | Yes|
 |notify\_settings|[PeerNotifySettings](/API_docs/types/PeerNotifySettings.html) | Yes|Notification settings|
 |pts|[int](/API_docs/types/int.html) | Optional|[PTS](https://core.telegram.org/api/updates)|
 |draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|Message [draft](https://core.telegram.org/api/drafts)|
@@ -39,5 +40,5 @@ Chat
 ### Example:
 
 ```
-$dialog = ['_' => 'dialog', 'pinned' => Bool, 'unread_mark' => Bool, 'view_forum_as_messages' => Bool, 'peer' => long, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_mentions_count' => int, 'unread_reactions_count' => int, 'notify_settings' => PeerNotifySettings, 'pts' => int, 'draft' => DraftMessage, 'folder_id' => int, 'ttl_period' => int];
+$dialog = ['_' => 'dialog', 'pinned' => Bool, 'unread_mark' => Bool, 'view_forum_as_messages' => Bool, 'peer' => long, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_mentions_count' => int, 'unread_reactions_count' => int, 'unread_poll_votes_count' => int, 'notify_settings' => PeerNotifySettings, 'pts' => int, 'draft' => DraftMessage, 'folder_id' => int, 'ttl_period' => int];
 ```  

@@ -33,6 +33,7 @@ Represents a [forum topic](https://core.telegram.org/api/forum#forum-topics).
 |unread\_count|[int](/API_docs/types/int.html) | Yes|Number of unread messages|
 |unread\_mentions\_count|[int](/API_docs/types/int.html) | Yes|Number of [unread mentions](https://core.telegram.org/api/mentions)|
 |unread\_reactions\_count|[int](/API_docs/types/int.html) | Yes|Number of unread reactions to messages you sent|
+|unread\_poll\_votes\_count|[int](/API_docs/types/int.html) | Yes|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Yes|ID of the peer that created the topic|
 |notify\_settings|[PeerNotifySettings](/API_docs/types/PeerNotifySettings.html) | Yes|Notification settings|
 |draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|Message [draft](https://core.telegram.org/api/drafts)|
@@ -45,5 +46,5 @@ Represents a [forum topic](https://core.telegram.org/api/forum#forum-topics).
 ### Example:
 
 ```
-$forumTopic = ['_' => 'forumTopic', 'my' => Bool, 'closed' => Bool, 'pinned' => Bool, 'short' => Bool, 'hidden' => Bool, 'title_missing' => Bool, 'id' => int, 'date' => int, 'peer' => long, 'title' => 'string', 'icon_color' => int, 'icon_emoji_id' => long, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_mentions_count' => int, 'unread_reactions_count' => int, 'from_id' => Peer, 'notify_settings' => PeerNotifySettings, 'draft' => DraftMessage];
+$forumTopic = ['_' => 'forumTopic', 'my' => Bool, 'closed' => Bool, 'pinned' => Bool, 'short' => Bool, 'hidden' => Bool, 'title_missing' => Bool, 'id' => int, 'date' => int, 'peer' => long, 'title' => 'string', 'icon_color' => int, 'icon_emoji_id' => long, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_mentions_count' => int, 'unread_reactions_count' => int, 'unread_poll_votes_count' => int, 'from_id' => Peer, 'notify_settings' => PeerNotifySettings, 'draft' => DraftMessage];
 ```  

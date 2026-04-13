@@ -18,6 +18,7 @@ redirect_from: /API_docs/methods/messages_summarizeText.html
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Optional|
 |to\_lang|[string](/API_docs/types/string.html) | Optional|
+|tone|[string](/API_docs/types/string.html) | Optional|
 
 
 ### Return type: [TextWithEntities](/API_docs/types/TextWithEntities.html)
@@ -43,6 +44,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$TextWithEntities = $MadelineProto->messages->summarizeText(peer: $InputPeer, id: $int, to_lang: 'string', );
+$TextWithEntities = $MadelineProto->messages->summarizeText(peer: $InputPeer, id: $int, to_lang: 'string', tone: 'string', );
 ```
 

@@ -17,6 +17,7 @@ Reaction notification settings, see [here »](https://core.telegram.org/api/reac
 |----------|---------------|----------|-------------|
 |messages\_notify\_from|[ReactionNotificationsFrom](/API_docs/types/ReactionNotificationsFrom.html) | Optional|Message reaction notification settings, if not set completely disables notifications/updates about message reactions.|
 |stories\_notify\_from|[ReactionNotificationsFrom](/API_docs/types/ReactionNotificationsFrom.html) | Optional|Story reaction notification settings, if not set completely disables notifications/updates about reactions to stories.|
+|poll\_votes\_notify\_from|[ReactionNotificationsFrom](/API_docs/types/ReactionNotificationsFrom.html) | Optional|
 |sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Yes|[Notification sound for reactions »](https://core.telegram.org/api/ringtones)|
 |show\_previews|[Bool](/API_docs/types/Bool.html) | Yes|If false, [push notifications »](https://core.telegram.org/api/push-updates) about message/story reactions will only be of type `REACT_HIDDEN`/`REACT_STORY_HIDDEN`, without any information about the reacted-to story or the reaction itself.|
 
@@ -28,5 +29,5 @@ Reaction notification settings, see [here »](https://core.telegram.org/api/reac
 ### Example:
 
 ```
-$reactionsNotifySettings = ['_' => 'reactionsNotifySettings', 'messages_notify_from' => ReactionNotificationsFrom, 'stories_notify_from' => ReactionNotificationsFrom, 'sound' => NotificationSound, 'show_previews' => Bool];
+$reactionsNotifySettings = ['_' => 'reactionsNotifySettings', 'messages_notify_from' => ReactionNotificationsFrom, 'stories_notify_from' => ReactionNotificationsFrom, 'poll_votes_notify_from' => ReactionNotificationsFrom, 'sound' => NotificationSound, 'show_previews' => Bool];
 ```  

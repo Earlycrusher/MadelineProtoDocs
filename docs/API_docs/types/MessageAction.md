@@ -139,6 +139,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionNoForwardsRequest](/API_docs/constructors/messageActionNoForwardsRequest.html)  
 
+[messageActionPollAppendAnswer](/API_docs/constructors/messageActionPollAppendAnswer.html)  
+
+[messageActionPollDeleteAnswer](/API_docs/constructors/messageActionPollDeleteAnswer.html)  
+
+[messageActionManagedBotCreated](/API_docs/constructors/messageActionManagedBotCreated.html)  
+
 
 
 ### Methods that return an object of this type (methods):

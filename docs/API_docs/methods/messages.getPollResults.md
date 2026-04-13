@@ -19,6 +19,7 @@ Get poll results
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the poll was found | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Message ID of poll message | Optional|
+|poll\_hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -44,6 +45,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->getPollResults(peer: $InputPeer, msg_id: $int, );
+$Updates = $MadelineProto->messages->getPollResults(peer: $InputPeer, msg_id: $int, poll_hash: $long, );
 ```
 

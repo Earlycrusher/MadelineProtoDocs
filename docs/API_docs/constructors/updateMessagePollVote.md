@@ -18,6 +18,7 @@ A specific peer has voted in a poll
 |poll\_id|[long](/API_docs/types/long.html) | Yes|Poll ID|
 |peer|[long](/API_docs/types/long.html) | Yes|The peer that voted in the poll|
 |options|Array of [bytes](/API_docs/types/bytes.html) | Yes|Chosen option(s)|
+|positions|Array of [int](/API_docs/types/int.html) | Yes|
 |qts|[int](/API_docs/types/int.html) | Yes|New **qts** value, see [updates »](https://core.telegram.org/api/updates) for more info.|
 
 
@@ -28,5 +29,5 @@ A specific peer has voted in a poll
 ### Example:
 
 ```
-$updateMessagePollVote = ['_' => 'updateMessagePollVote', 'poll_id' => long, 'peer' => long, 'options' => ['bytes', 'bytes'], 'qts' => int];
+$updateMessagePollVote = ['_' => 'updateMessagePollVote', 'poll_id' => long, 'peer' => long, 'options' => ['bytes', 'bytes'], 'positions' => [int, int], 'qts' => int];
 ```  

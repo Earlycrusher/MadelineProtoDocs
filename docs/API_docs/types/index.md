@@ -325,6 +325,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputMessage](/API_docs/types/InputMessage.html)<a name="InputMessage"></a>  
 
+[InputMessageReadMetric](/API_docs/types/InputMessageReadMetric.html)<a name="InputMessageReadMetric"></a>  
+
 [InputNotifyPeer](/API_docs/types/InputNotifyPeer.html)<a name="InputNotifyPeer"></a>  
 
 [InputPasskeyCredential](/API_docs/types/InputPasskeyCredential.html)<a name="InputPasskeyCredential"></a>  
@@ -849,9 +851,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [bots.BotInfo](/API_docs/types/bots.BotInfo.html)<a name="bots.BotInfo"></a>  
 
+[bots.ExportedBotToken](/API_docs/types/bots.ExportedBotToken.html)<a name="bots.ExportedBotToken"></a>  
+
 [bots.PopularAppBots](/API_docs/types/bots.PopularAppBots.html)<a name="bots.PopularAppBots"></a>  
 
 [bots.PreviewInfo](/API_docs/types/bots.PreviewInfo.html)<a name="bots.PreviewInfo"></a>  
+
+[bots.RequestedButton](/API_docs/types/bots.RequestedButton.html)<a name="bots.RequestedButton"></a>  
 
 [channels.AdminLogResults](/API_docs/types/channels.AdminLogResults.html)<a name="channels.AdminLogResults"></a>  
 
@@ -964,6 +970,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.Chats](/API_docs/types/messages.Chats.html)<a name="messages.Chats"></a>  
 
 [messages.CheckedHistoryImportPeer](/API_docs/types/messages.CheckedHistoryImportPeer.html)<a name="messages.CheckedHistoryImportPeer"></a>  
+
+[messages.ComposedMessageWithAI](/API_docs/types/messages.ComposedMessageWithAI.html)<a name="messages.ComposedMessageWithAI"></a>  
 
 [messages.DhConfig](/API_docs/types/messages.DhConfig.html)<a name="messages.DhConfig"></a>  
 

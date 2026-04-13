@@ -317,6 +317,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateChatParticipantRank](/API_docs/constructors/updateChatParticipantRank.html)  
 
+[updateManagedBot](/API_docs/constructors/updateManagedBot.html)  
+
 
 
 ### Methods that return an object of this type (methods):

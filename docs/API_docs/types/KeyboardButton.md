@@ -72,5 +72,7 @@ You can also access the properties of the constructor as a normal array, for exa
 
 ### Methods that return an object of this type (methods):
 
+[$MadelineProto->bots->getRequestedWebViewButton](/API_docs/methods/bots.getRequestedWebViewButton.html)  
+
 
 

@@ -55,6 +55,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageEntityFormattedDate](/API_docs/constructors/messageEntityFormattedDate.html)  
 
+[messageEntityDiffInsert](/API_docs/constructors/messageEntityDiffInsert.html)  
+
+[messageEntityDiffReplace](/API_docs/constructors/messageEntityDiffReplace.html)  
+
+[messageEntityDiffDelete](/API_docs/constructors/messageEntityDiffDelete.html)  
+
 [messageEntityBlockquote\_101](/API_docs/constructors/messageEntityBlockquote_101.html)  
 
 

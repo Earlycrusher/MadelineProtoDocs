@@ -19,6 +19,7 @@ Send one or more chosen peers, as requested by a [keyboardButtonRequestPeer](../
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The bot that sent the [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) button. | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | ID of the message that contained the reply keyboard with the [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) button. | Optional|
+|webapp\_req\_id|[string](/API_docs/types/string.html) |  | Optional|
 |button\_id|[int](/API_docs/types/int.html) | The `button_id` field from the [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) constructor. | Optional|
 |requested\_peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chosen peers. | Yes|
 
@@ -46,6 +47,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendBotRequestedPeer(peer: $InputPeer, msg_id: $int, button_id: $int, requested_peers: [$InputPeer, $InputPeer], );
+$Updates = $MadelineProto->messages->sendBotRequestedPeer(peer: $InputPeer, msg_id: $int, webapp_req_id: 'string', button_id: $int, requested_peers: [$InputPeer, $InputPeer], );
 ```
 

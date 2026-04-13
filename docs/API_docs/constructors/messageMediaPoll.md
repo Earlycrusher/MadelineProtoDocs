@@ -17,6 +17,7 @@ Poll
 |----------|---------------|----------|-------------|
 |poll|[Poll](/API_docs/types/Poll.html) | Yes|The poll|
 |results|[PollResults](/API_docs/types/PollResults.html) | Yes|The results of the poll|
+|attached\_media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|
 
 
 
@@ -26,5 +27,5 @@ Poll
 ### Example:
 
 ```
-$messageMediaPoll = ['_' => 'messageMediaPoll', 'poll' => Poll, 'results' => PollResults];
+$messageMediaPoll = ['_' => 'messageMediaPoll', 'poll' => Poll, 'results' => PollResults, 'attached_media' => MessageMedia];
 ```  

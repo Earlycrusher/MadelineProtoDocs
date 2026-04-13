@@ -158,6 +158,10 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->messages->editChatParticipantRank](/API_docs/methods/messages.editChatParticipantRank.html)  
 
+[$MadelineProto->messages->addPollAnswer](/API_docs/methods/messages.addPollAnswer.html)  
+
+[$MadelineProto->messages->deletePollAnswer](/API_docs/methods/messages.deletePollAnswer.html)  
+
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
 
 [$MadelineProto->channels->editAdmin](/API_docs/methods/channels.editAdmin.html)  

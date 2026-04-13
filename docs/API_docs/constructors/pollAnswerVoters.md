@@ -18,7 +18,8 @@ A poll answer, and how users voted on it
 |chosen|[Bool](/API_docs/types/Bool.html) | Optional|Whether we have chosen this answer|
 |correct|[Bool](/API_docs/types/Bool.html) | Optional|For quizzes, whether the option we have chosen is correct|
 |option|[bytes](/API_docs/types/bytes.html) | Yes|The param that has to be passed to [messages.sendVote](../methods/messages.sendVote.html).|
-|voters|[int](/API_docs/types/int.html) | Yes|How many users voted for this option|
+|voters|[int](/API_docs/types/int.html) | Optional|How many users voted for this option|
+|recent\_voters|Array of [Peer](/API_docs/types/Peer.html) | Optional|
 
 
 
@@ -28,5 +29,5 @@ A poll answer, and how users voted on it
 ### Example:
 
 ```
-$pollAnswerVoters = ['_' => 'pollAnswerVoters', 'chosen' => Bool, 'correct' => Bool, 'option' => 'bytes', 'voters' => int];
+$pollAnswerVoters = ['_' => 'pollAnswerVoters', 'chosen' => Bool, 'correct' => Bool, 'option' => 'bytes', 'voters' => int, 'recent_voters' => [Peer, Peer]];
 ```  

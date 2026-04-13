@@ -30,6 +30,8 @@ redirect_from: /API_docs/types/messages_AffectedHistory.html
 
 [$MadelineProto->messages->deleteTopicHistory](/API_docs/methods/messages.deleteTopicHistory.html)  
 
+[$MadelineProto->messages->readPollVotes](/API_docs/methods/messages.readPollVotes.html)  
+
 [$MadelineProto->channels->deleteParticipantHistory](/API_docs/methods/channels.deleteParticipantHistory.html)  
 
 

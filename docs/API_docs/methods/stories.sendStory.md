@@ -33,6 +33,7 @@ May also be used in a [business connection](https://core.telegram.org/api/bots/c
 |fwd\_from\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, indicates that this story is a repost of story with ID `fwd_from_story` posted by the peer in `fwd_from_id`. | Optional|
 |fwd\_from\_story|[int](/API_docs/types/int.html) | If set, indicates that this story is a repost of story with ID `fwd_from_story` posted by the peer in `fwd_from_id`. | Optional|
 |albums|Array of [int](/API_docs/types/int.html) | If set, adds the story to the specified albums. | Optional|
+|music|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -58,7 +59,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->stories->sendStory(pinned: $Bool, noforwards: $Bool, fwd_modified: $Bool, peer: $InputPeer, media: $InputMedia, media_areas: [$MediaArea, $MediaArea], caption: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', privacy_rules: [$InputPrivacyRule, $InputPrivacyRule], period: $int, fwd_from_id: $InputPeer, fwd_from_story: $int, albums: [$int, $int], );
+$Updates = $MadelineProto->stories->sendStory(pinned: $Bool, noforwards: $Bool, fwd_modified: $Bool, peer: $InputPeer, media: $InputMedia, media_areas: [$MediaArea, $MediaArea], caption: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', privacy_rules: [$InputPrivacyRule, $InputPrivacyRule], period: $int, fwd_from_id: $InputPeer, fwd_from_story: $int, albums: [$int, $int], music: $InputDocument, );
 ```
 
 

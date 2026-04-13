@@ -70,5 +70,7 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 [$MadelineProto->bots->getAdminedBots](/API_docs/methods/bots.getAdminedBots.html)  
 
+[$MadelineProto->bots->createBot](/API_docs/methods/bots.createBot.html)  
+
 
 

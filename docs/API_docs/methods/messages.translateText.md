@@ -23,6 +23,7 @@ Translate a given text.
 |id|Array of [int](/API_docs/types/int.html) | A list of message IDs to translate | Optional|
 |text|Array of [TextWithEntities](/API_docs/types/TextWithEntities.html) | A list of styled messages to translate | Optional|
 |to\_lang|[string](/API_docs/types/string.html) | Two-letter ISO 639-1 language code of the language to which the message is translated | Optional|
+|tone|[string](/API_docs/types/string.html) |  | Optional|
 
 
 ### Return type: [messages.TranslatedText](/API_docs/types/messages.TranslatedText.html)
@@ -48,6 +49,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_TranslatedText = $MadelineProto->messages->translateText(peer: $InputPeer, id: [$int, $int], text: [$TextWithEntities, $TextWithEntities], to_lang: 'string', );
+$messages_TranslatedText = $MadelineProto->messages->translateText(peer: $InputPeer, id: [$int, $int], text: [$TextWithEntities, $TextWithEntities], to_lang: 'string', tone: 'string', );
 ```
 
