@@ -529,6 +529,34 @@ $MadelineProto->[account->verifyPhone](/API_docs/methods/account.verifyPhone.htm
 
 ***
 <br><br>
+$MadelineProto->[aicompose->createTone](/API_docs/methods/aicompose.createTone.html)(\[display_author: $[Bool](/API_docs/types/Bool.html), emoji_id: $[long](/API_docs/types/long.html), title: $[string](/API_docs/types/string.html), prompt: $[string](/API_docs/types/string.html), \]) === [$AiComposeTone](/API_docs/types/AiComposeTone.html)<a name="aicompose.createTone"></a>  
+
+***
+<br><br>
+$MadelineProto->[aicompose->deleteTone](/API_docs/methods/aicompose.deleteTone.html)(\[tone: $[InputAiComposeTone](/API_docs/types/InputAiComposeTone.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="aicompose.deleteTone"></a>  
+
+***
+<br><br>
+$MadelineProto->[aicompose->getTone](/API_docs/methods/aicompose.getTone.html)(\[tone: $[InputAiComposeTone](/API_docs/types/InputAiComposeTone.html), \]) === [$aicompose.Tones](/API_docs/types/aicompose.Tones.html)<a name="aicompose.getTone"></a>  
+
+***
+<br><br>
+$MadelineProto->[aicompose->getToneExample](/API_docs/methods/aicompose.getToneExample.html)(\[tone: $[InputAiComposeTone](/API_docs/types/InputAiComposeTone.html), num: $[int](/API_docs/types/int.html), \]) === [$AiComposeToneExample](/API_docs/types/AiComposeToneExample.html)<a name="aicompose.getToneExample"></a>  
+
+***
+<br><br>
+$MadelineProto->[aicompose->getTones](/API_docs/methods/aicompose.getTones.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$aicompose.Tones](/API_docs/types/aicompose.Tones.html)<a name="aicompose.getTones"></a>  
+
+***
+<br><br>
+$MadelineProto->[aicompose->saveTone](/API_docs/methods/aicompose.saveTone.html)(\[tone: $[InputAiComposeTone](/API_docs/types/InputAiComposeTone.html), unsave: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="aicompose.saveTone"></a>  
+
+***
+<br><br>
+$MadelineProto->[aicompose->updateTone](/API_docs/methods/aicompose.updateTone.html)(\[tone: $[InputAiComposeTone](/API_docs/types/InputAiComposeTone.html), display_author: $[Bool](/API_docs/types/Bool.html), emoji_id: $[long](/API_docs/types/long.html), title: $[string](/API_docs/types/string.html), prompt: $[string](/API_docs/types/string.html), \]) === [$AiComposeTone](/API_docs/types/AiComposeTone.html)<a name="aicompose.updateTone"></a>  
+
+***
+<br><br>
 $MadelineProto->[auth->acceptLoginToken](/API_docs/methods/auth.acceptLoginToken.html)(\[token: $[bytes](/API_docs/types/bytes.html), \]) === [$Authorization](/API_docs/types/Authorization.html)<a name="auth.acceptLoginToken"></a>  
 
 ***
@@ -665,11 +693,19 @@ $MadelineProto->[bots->deletePreviewMedia](/API_docs/methods/bots.deletePreviewM
 
 ***
 <br><br>
+$MadelineProto->[bots->editAccessSettings](/API_docs/methods/bots.editAccessSettings.html)(\[restricted: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), add_users: \[$[InputUser](/API_docs/types/InputUser.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.editAccessSettings"></a>  
+
+***
+<br><br>
 $MadelineProto->[bots->editPreviewMedia](/API_docs/methods/bots.editPreviewMedia.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), lang_code: $[string](/API_docs/types/string.html), media: $[InputMedia](/API_docs/types/InputMedia.html), new_media: $[InputMedia](/API_docs/types/InputMedia.html), \]) === [$BotPreviewMedia](/API_docs/types/BotPreviewMedia.html)<a name="bots.editPreviewMedia"></a>  
 
 ***
 <br><br>
 $MadelineProto->[bots->exportBotToken](/API_docs/methods/bots.exportBotToken.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), revoke: $[Bool](/API_docs/types/Bool.html), \]) === [$bots.ExportedBotToken](/API_docs/types/bots.ExportedBotToken.html)<a name="bots.exportBotToken"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->getAccessSettings](/API_docs/methods/bots.getAccessSettings.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), \]) === [$bots.AccessSettings](/API_docs/types/bots.AccessSettings.html)<a name="bots.getAccessSettings"></a>  
 
 ***
 <br><br>
@@ -1113,7 +1149,7 @@ $MadelineProto->[contacts->getStatuses](/API_docs/methods/contacts.getStatuses.h
 
 ***
 <br><br>
-$MadelineProto->[contacts->getTopPeers](/API_docs/methods/contacts.getTopPeers.html)(\[correspondents: $[Bool](/API_docs/types/Bool.html), bots_pm: $[Bool](/API_docs/types/Bool.html), bots_inline: $[Bool](/API_docs/types/Bool.html), phone_calls: $[Bool](/API_docs/types/Bool.html), forward_users: $[Bool](/API_docs/types/Bool.html), forward_chats: $[Bool](/API_docs/types/Bool.html), groups: $[Bool](/API_docs/types/Bool.html), channels: $[Bool](/API_docs/types/Bool.html), bots_app: $[Bool](/API_docs/types/Bool.html), offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)<a name="contacts.getTopPeers"></a>  
+$MadelineProto->[contacts->getTopPeers](/API_docs/methods/contacts.getTopPeers.html)(\[correspondents: $[Bool](/API_docs/types/Bool.html), bots_pm: $[Bool](/API_docs/types/Bool.html), bots_inline: $[Bool](/API_docs/types/Bool.html), phone_calls: $[Bool](/API_docs/types/Bool.html), forward_users: $[Bool](/API_docs/types/Bool.html), forward_chats: $[Bool](/API_docs/types/Bool.html), groups: $[Bool](/API_docs/types/Bool.html), channels: $[Bool](/API_docs/types/Bool.html), bots_app: $[Bool](/API_docs/types/Bool.html), bots_guestchat: $[Bool](/API_docs/types/Bool.html), offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)<a name="contacts.getTopPeers"></a>  
 
 ***
 <br><br>
@@ -1389,7 +1425,7 @@ $MadelineProto->[messages->clickSponsoredMessage](/API_docs/methods/messages.cli
 
 ***
 <br><br>
-$MadelineProto->[messages->composeMessageWithAI](/API_docs/methods/messages.composeMessageWithAI.html)(\[proofread: $[Bool](/API_docs/types/Bool.html), emojify: $[Bool](/API_docs/types/Bool.html), text: $[TextWithEntities](/API_docs/types/TextWithEntities.html), translate_to_lang: $[string](/API_docs/types/string.html), change_tone: $[string](/API_docs/types/string.html), \]) === [$messages.ComposedMessageWithAI](/API_docs/types/messages.ComposedMessageWithAI.html)<a name="messages.composeMessageWithAI"></a>  
+$MadelineProto->[messages->composeMessageWithAI](/API_docs/methods/messages.composeMessageWithAI.html)(\[proofread: $[Bool](/API_docs/types/Bool.html), emojify: $[Bool](/API_docs/types/Bool.html), text: $[TextWithEntities](/API_docs/types/TextWithEntities.html), translate_to_lang: $[string](/API_docs/types/string.html), tone: $[InputAiComposeTone](/API_docs/types/InputAiComposeTone.html), \]) === [$messages.ComposedMessageWithAI](/API_docs/types/messages.ComposedMessageWithAI.html)<a name="messages.composeMessageWithAI"></a>  
 
 ***
 <br><br>
@@ -1426,6 +1462,14 @@ $MadelineProto->[messages->deleteHistory](/API_docs/methods/messages.deleteHisto
 ***
 <br><br>
 $MadelineProto->[messages->deleteMessages](/API_docs/methods/messages.deleteMessages.html)(\[revoke: $[Bool](/API_docs/types/Bool.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$messages.AffectedMessages](/API_docs/types/messages.AffectedMessages.html)<a name="messages.deleteMessages"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->deleteParticipantReaction](/API_docs/methods/messages.deleteParticipantReaction.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), participant: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.deleteParticipantReaction"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->deleteParticipantReactions](/API_docs/methods/messages.deleteParticipantReactions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), participant: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.deleteParticipantReactions"></a>  
 
 ***
 <br><br>
@@ -1774,6 +1818,10 @@ $MadelineProto->[messages->getPeerDialogs](/API_docs/methods/messages.getPeerDia
 ***
 <br><br>
 $MadelineProto->[messages->getPeerSettings](/API_docs/methods/messages.getPeerSettings.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$messages.PeerSettings](/API_docs/types/messages.PeerSettings.html)<a name="messages.getPeerSettings"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getPersonalChannelHistory](/API_docs/methods/messages.getPersonalChannelHistory.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), limit: $[int](/API_docs/types/int.html), max_id: $[int](/API_docs/types/int.html), min_id: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.getPersonalChannelHistory"></a>  
 
 ***
 <br><br>
@@ -2178,6 +2226,10 @@ $MadelineProto->[messages->sendWebViewResultMessage](/API_docs/methods/messages.
 ***
 <br><br>
 $MadelineProto->[messages->setBotCallbackAnswer](/API_docs/methods/messages.setBotCallbackAnswer.html)(\[alert: $[Bool](/API_docs/types/Bool.html), query_id: $[long](/API_docs/types/long.html), message: $[string](/API_docs/types/string.html), url: $[string](/API_docs/types/string.html), cache_time: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.setBotCallbackAnswer"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->setBotGuestChatResult](/API_docs/methods/messages.setBotGuestChatResult.html)(\[query_id: $[long](/API_docs/types/long.html), result: $[InputBotInlineResult](/API_docs/types/InputBotInlineResult.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.setBotGuestChatResult"></a>  
 
 ***
 <br><br>
@@ -2850,6 +2902,10 @@ $MadelineProto->[stats->getMessagePublicForwards](/API_docs/methods/stats.getMes
 ***
 <br><br>
 $MadelineProto->[stats->getMessageStats](/API_docs/methods/stats.getMessageStats.html)(\[dark: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$stats.MessageStats](/API_docs/types/stats.MessageStats.html)<a name="stats.getMessageStats"></a>  
+
+***
+<br><br>
+$MadelineProto->[stats->getPollStats](/API_docs/methods/stats.getPollStats.html)(\[dark: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$stats.PollStats](/API_docs/types/stats.PollStats.html)<a name="stats.getPollStats"></a>  
 
 ***
 <br><br>

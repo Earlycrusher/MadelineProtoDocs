@@ -1902,6 +1902,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.registerPasskey.html" name="account.registerPasskey">account.registerPasskey</a>
 
+* <a href="aicompose.createTone.html" name="aicompose.createTone">aicompose.createTone</a>
+
+* <a href="aicompose.deleteTone.html" name="aicompose.deleteTone">aicompose.deleteTone</a>
+
+* <a href="aicompose.getTone.html" name="aicompose.getTone">aicompose.getTone</a>
+
+* <a href="aicompose.getToneExample.html" name="aicompose.getToneExample">aicompose.getToneExample</a>
+
+* <a href="aicompose.getTones.html" name="aicompose.getTones">aicompose.getTones</a>
+
+* <a href="aicompose.saveTone.html" name="aicompose.saveTone">aicompose.saveTone</a>
+
+* <a href="aicompose.updateTone.html" name="aicompose.updateTone">aicompose.updateTone</a>
+
 * <a href="auth.checkPaidAuth.html" name="auth.checkPaidAuth">auth.checkPaidAuth</a>
 
 * <a href="auth.finishPasskeyLogin.html" name="auth.finishPasskeyLogin">auth.finishPasskeyLogin</a>
@@ -1914,7 +1928,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.createBot.html" name="bots.createBot">bots.createBot</a>
 
+* <a href="bots.editAccessSettings.html" name="bots.editAccessSettings">bots.editAccessSettings</a>
+
 * <a href="bots.exportBotToken.html" name="bots.exportBotToken">bots.exportBotToken</a>
+
+* <a href="bots.getAccessSettings.html" name="bots.getAccessSettings">bots.getAccessSettings</a>
 
 * <a href="bots.getRequestedWebViewButton.html" name="bots.getRequestedWebViewButton">bots.getRequestedWebViewButton</a>
 
@@ -1931,6 +1949,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.createForumTopic.html" name="messages.createForumTopic">messages.createForumTopic</a>
 
 * <a href="messages.declineUrlAuth.html" name="messages.declineUrlAuth">messages.declineUrlAuth</a>
+
+* <a href="messages.deleteParticipantReaction.html" name="messages.deleteParticipantReaction">messages.deleteParticipantReaction</a>
+
+* <a href="messages.deleteParticipantReactions.html" name="messages.deleteParticipantReactions">messages.deleteParticipantReactions</a>
 
 * <a href="messages.deletePollAnswer.html" name="messages.deletePollAnswer">messages.deletePollAnswer</a>
 
@@ -1950,6 +1972,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getFutureChatCreatorAfterLeave.html" name="messages.getFutureChatCreatorAfterLeave">messages.getFutureChatCreatorAfterLeave</a>
 
+* <a href="messages.getPersonalChannelHistory.html" name="messages.getPersonalChannelHistory">messages.getPersonalChannelHistory</a>
+
 * <a href="messages.getUnreadPollVotes.html" name="messages.getUnreadPollVotes">messages.getUnreadPollVotes</a>
 
 * <a href="messages.readPollVotes.html" name="messages.readPollVotes">messages.readPollVotes</a>
@@ -1959,6 +1983,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.reportMusicListen.html" name="messages.reportMusicListen">messages.reportMusicListen</a>
 
 * <a href="messages.reportReadMetrics.html" name="messages.reportReadMetrics">messages.reportReadMetrics</a>
+
+* <a href="messages.setBotGuestChatResult.html" name="messages.setBotGuestChatResult">messages.setBotGuestChatResult</a>
 
 * <a href="messages.summarizeText.html" name="messages.summarizeText">messages.summarizeText</a>
 
@@ -1995,6 +2021,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="phone.sendGroupCallEncryptedMessage.html" name="phone.sendGroupCallEncryptedMessage">phone.sendGroupCallEncryptedMessage</a>
 
 * <a href="phone.sendGroupCallMessage.html" name="phone.sendGroupCallMessage">phone.sendGroupCallMessage</a>
+
+* <a href="stats.getPollStats.html" name="stats.getPollStats">stats.getPollStats</a>
 
 * <a href="stories.startLive.html" name="stories.startLive">stories.startLive</a>
 

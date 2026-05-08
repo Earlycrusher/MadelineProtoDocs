@@ -36,6 +36,7 @@ Represents the rights of a normal user in a [supergroup/channel/chat](https://co
 |send\_docs|[Bool](/API_docs/types/Bool.html) | Optional|If set, does not allow a user to send documents in a [supergroup/chat](https://core.telegram.org/api/channel).|
 |send\_plain|[Bool](/API_docs/types/Bool.html) | Optional|If set, does not allow a user to send text messages in a [supergroup/chat](https://core.telegram.org/api/channel).|
 |edit\_rank|[Bool](/API_docs/types/Bool.html) | Optional|
+|send\_reactions|[Bool](/API_docs/types/Bool.html) | Optional|
 |until\_date|[int](/API_docs/types/int.html) | Yes|Validity of said permissions (it is considered forever any value less then 30 seconds or more then 366 days).|
 
 
@@ -46,5 +47,5 @@ Represents the rights of a normal user in a [supergroup/channel/chat](https://co
 ### Example:
 
 ```
-$chatBannedRights = ['_' => 'chatBannedRights', 'view_messages' => Bool, 'send_messages' => Bool, 'send_media' => Bool, 'send_stickers' => Bool, 'send_gifs' => Bool, 'send_games' => Bool, 'send_inline' => Bool, 'embed_links' => Bool, 'send_polls' => Bool, 'change_info' => Bool, 'invite_users' => Bool, 'pin_messages' => Bool, 'manage_topics' => Bool, 'send_photos' => Bool, 'send_videos' => Bool, 'send_roundvideos' => Bool, 'send_audios' => Bool, 'send_voices' => Bool, 'send_docs' => Bool, 'send_plain' => Bool, 'edit_rank' => Bool, 'until_date' => int];
+$chatBannedRights = ['_' => 'chatBannedRights', 'view_messages' => Bool, 'send_messages' => Bool, 'send_media' => Bool, 'send_stickers' => Bool, 'send_gifs' => Bool, 'send_games' => Bool, 'send_inline' => Bool, 'embed_links' => Bool, 'send_polls' => Bool, 'change_info' => Bool, 'invite_users' => Bool, 'pin_messages' => Bool, 'manage_topics' => Bool, 'send_photos' => Bool, 'send_videos' => Bool, 'send_roundvideos' => Bool, 'send_audios' => Bool, 'send_voices' => Bool, 'send_docs' => Bool, 'send_plain' => Bool, 'edit_rank' => Bool, 'send_reactions' => Bool, 'until_date' => int];
 ```  

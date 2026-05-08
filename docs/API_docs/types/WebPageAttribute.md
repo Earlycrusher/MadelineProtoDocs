@@ -23,6 +23,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [webPageAttributeStarGiftAuction](/API_docs/constructors/webPageAttributeStarGiftAuction.html)  
 
+[webPageAttributeAiComposeTone](/API_docs/constructors/webPageAttributeAiComposeTone.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -20,6 +20,7 @@ Official apps may receive this constructor, indicating that due to the high cost
 |phone\_code\_hash|[string](/API_docs/types/string.html) | Yes|Phone code hash, to be stored and later re-used with [auth.signIn](../methods/auth.signIn.html)|
 |support\_email\_address|[string](/API_docs/types/string.html) | Yes|An email address that can be contacted for more information about this request.|
 |support\_email\_subject|[string](/API_docs/types/string.html) | Yes|The mandatory subject for the email.|
+|premium\_days|[int](/API_docs/types/int.html) | Yes|
 |currency|[string](/API_docs/types/string.html) | Yes|
 |amount|[long](/API_docs/types/long.html) | Yes|
 
@@ -31,5 +32,5 @@ Official apps may receive this constructor, indicating that due to the high cost
 ### Example:
 
 ```
-$auth_sentCodePaymentRequired = ['_' => 'auth.sentCodePaymentRequired', 'store_product' => 'string', 'phone_code_hash' => 'string', 'support_email_address' => 'string', 'support_email_subject' => 'string', 'currency' => 'string', 'amount' => long];
+$auth_sentCodePaymentRequired = ['_' => 'auth.sentCodePaymentRequired', 'store_product' => 'string', 'phone_code_hash' => 'string', 'support_email_address' => 'string', 'support_email_subject' => 'string', 'premium_days' => int, 'currency' => 'string', 'amount' => long];
 ```  

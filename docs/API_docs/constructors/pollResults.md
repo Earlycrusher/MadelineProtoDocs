@@ -17,6 +17,7 @@ Results of poll
 |----------|---------------|----------|-------------|
 |min|[Bool](/API_docs/types/Bool.html) | Optional|Similar to [min](https://core.telegram.org/api/min) objects, used for poll constructors that are the same for all users so they don't have the option chosen by the current user (you can use [messages.getPollResults](../methods/messages.getPollResults.html) to get the full poll results).|
 |has\_unread\_votes|[Bool](/API_docs/types/Bool.html) | Optional|
+|can\_view\_stats|[Bool](/API_docs/types/Bool.html) | Optional|
 |results|Array of [PollAnswerVoters](/API_docs/types/PollAnswerVoters.html) | Optional|Poll results|
 |total\_voters|[int](/API_docs/types/int.html) | Optional|Total number of people that voted in the poll|
 |recent\_voters|Array of [Peer](/API_docs/types/Peer.html) | Optional|IDs of the last users that recently voted in the poll|
@@ -32,5 +33,5 @@ Results of poll
 ### Example:
 
 ```
-$pollResults = ['_' => 'pollResults', 'min' => Bool, 'has_unread_votes' => Bool, 'results' => [PollAnswerVoters, PollAnswerVoters], 'total_voters' => int, 'recent_voters' => [Peer, Peer], 'solution' => 'string', 'solution_entities' => [MessageEntity, MessageEntity], 'solution_media' => MessageMedia];
+$pollResults = ['_' => 'pollResults', 'min' => Bool, 'has_unread_votes' => Bool, 'can_view_stats' => Bool, 'results' => [PollAnswerVoters, PollAnswerVoters], 'total_voters' => int, 'recent_voters' => [Peer, Peer], 'solution' => 'string', 'solution_entities' => [MessageEntity, MessageEntity], 'solution_media' => MessageMedia];
 ```  

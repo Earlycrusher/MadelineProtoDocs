@@ -52,6 +52,8 @@ redirect_from: /API_docs/types/messages_Messages.html
 
 [$MadelineProto->messages->getUnreadPollVotes](/API_docs/methods/messages.getUnreadPollVotes.html)  
 
+[$MadelineProto->messages->getPersonalChannelHistory](/API_docs/methods/messages.getPersonalChannelHistory.html)  
+
 [$MadelineProto->channels->getMessages](/API_docs/methods/channels.getMessages.html)  
 
 [$MadelineProto->channels->searchPosts](/API_docs/methods/channels.searchPosts.html)  

@@ -9,6 +9,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [AccountDaysTTL](/API_docs/types/AccountDaysTTL.html)<a name="AccountDaysTTL"></a>  
 
+[AiComposeTone](/API_docs/types/AiComposeTone.html)<a name="AiComposeTone"></a>  
+
+[AiComposeToneExample](/API_docs/types/AiComposeToneExample.html)<a name="AiComposeToneExample"></a>  
+
 [AttachMenuBot](/API_docs/types/AttachMenuBot.html)<a name="AttachMenuBot"></a>  
 
 [AttachMenuBotIcon](/API_docs/types/AttachMenuBotIcon.html)<a name="AttachMenuBotIcon"></a>  
@@ -260,6 +264,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InlineBotWebView](/API_docs/types/InlineBotWebView.html)<a name="InlineBotWebView"></a>  
 
 [InlineQueryPeerType](/API_docs/types/InlineQueryPeerType.html)<a name="InlineQueryPeerType"></a>  
+
+[InputAiComposeTone](/API_docs/types/InputAiComposeTone.html)<a name="InputAiComposeTone"></a>  
 
 [InputAppEvent](/API_docs/types/InputAppEvent.html)<a name="InputAppEvent"></a>  
 
@@ -831,6 +837,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [account.WebAuthorizations](/API_docs/types/account.WebAuthorizations.html)<a name="account.WebAuthorizations"></a>  
 
+[aicompose.Tones](/API_docs/types/aicompose.Tones.html)<a name="aicompose.Tones"></a>  
+
 [auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.Authorization"></a>  
 
 [auth.CodeType](/API_docs/types/auth.CodeType.html)<a name="auth.CodeType"></a>  
@@ -848,6 +856,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [auth.SentCode](/API_docs/types/auth.SentCode.html)<a name="auth.SentCode"></a>  
 
 [auth.SentCodeType](/API_docs/types/auth.SentCodeType.html)<a name="auth.SentCodeType"></a>  
+
+[bots.AccessSettings](/API_docs/types/bots.AccessSettings.html)<a name="bots.AccessSettings"></a>  
 
 [bots.BotInfo](/API_docs/types/bots.BotInfo.html)<a name="bots.BotInfo"></a>  
 
@@ -1156,6 +1166,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [stats.MegagroupStats](/API_docs/types/stats.MegagroupStats.html)<a name="stats.MegagroupStats"></a>  
 
 [stats.MessageStats](/API_docs/types/stats.MessageStats.html)<a name="stats.MessageStats"></a>  
+
+[stats.PollStats](/API_docs/types/stats.PollStats.html)<a name="stats.PollStats"></a>  
 
 [stats.PublicForwards](/API_docs/types/stats.PublicForwards.html)<a name="stats.PublicForwards"></a>  
 

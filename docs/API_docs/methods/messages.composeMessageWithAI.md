@@ -19,7 +19,7 @@ redirect_from: /API_docs/methods/messages_composeMessageWithAI.html
 |emojify|[Bool](/API_docs/types/Bool.html) | Optional|
 |text|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
 |translate\_to\_lang|[string](/API_docs/types/string.html) | Optional|
-|change\_tone|[string](/API_docs/types/string.html) | Optional|
+|tone|[InputAiComposeTone](/API_docs/types/InputAiComposeTone.html) | Optional|
 
 
 ### Return type: [messages.ComposedMessageWithAI](/API_docs/types/messages.ComposedMessageWithAI.html)
@@ -45,6 +45,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ComposedMessageWithAI = $MadelineProto->messages->composeMessageWithAI(proofread: $Bool, emojify: $Bool, text: $TextWithEntities, translate_to_lang: 'string', change_tone: 'string', );
+$messages_ComposedMessageWithAI = $MadelineProto->messages->composeMessageWithAI(proofread: $Bool, emojify: $Bool, text: $TextWithEntities, translate_to_lang: 'string', tone: $InputAiComposeTone, );
 ```
 

@@ -319,6 +319,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateManagedBot](/API_docs/constructors/updateManagedBot.html)  
 
+[updateBotGuestChatQuery](/API_docs/constructors/updateBotGuestChatQuery.html)  
+
+[updateAiComposeTones](/API_docs/constructors/updateAiComposeTones.html)  
+
 
 
 ### Methods that return an object of this type (methods):
