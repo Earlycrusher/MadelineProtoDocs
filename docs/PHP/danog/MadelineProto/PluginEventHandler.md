@@ -38,6 +38,7 @@ Plugin event handler class.
 * `$premium`: `\danog\MadelineProto\Namespace\Premium` 
 * `$smsjobs`: `\danog\MadelineProto\Namespace\Smsjobs` 
 * `$fragment`: `\danog\MadelineProto\Namespace\Fragment` 
+* `$aicompose`: `\danog\MadelineProto\Namespace\Aicompose` 
 
 ## Method list:
 * [`getPluginPaths(): array|string|null`](#getPluginPaths)

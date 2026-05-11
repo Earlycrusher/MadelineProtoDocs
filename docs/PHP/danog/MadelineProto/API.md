@@ -76,6 +76,7 @@ Main API wrapper for MadelineProto.
 * `$premium`: `\danog\MadelineProto\Namespace\Premium` 
 * `$smsjobs`: `\danog\MadelineProto\Namespace\Smsjobs` 
 * `$fragment`: `\danog\MadelineProto\Namespace\Fragment` 
+* `$aicompose`: `\danog\MadelineProto\Namespace\Aicompose` 
 
 ## Method list:
 * [`getWebAPITemplate(): string`](#getWebAPITemplate)

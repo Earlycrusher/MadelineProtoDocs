@@ -19,7 +19,7 @@ redirect_from: /API_docs/methods/messages_setBotGuestChatResult.html
 |result|[InputBotInlineResult](/API_docs/types/InputBotInlineResult.html) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.html)
+### Return type: [InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html)
 
 ### Can users use this method: **YES**
 
@@ -42,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->setBotGuestChatResult(query_id: $long, result: $InputBotInlineResult, );
+$InputBotInlineMessageID = $MadelineProto->messages->setBotGuestChatResult(query_id: $long, result: $InputBotInlineResult, );
 ```
 

@@ -38,6 +38,7 @@ Event handler.
 * `$premium`: `\danog\MadelineProto\Namespace\Premium` 
 * `$smsjobs`: `\danog\MadelineProto\Namespace\Smsjobs` 
 * `$fragment`: `\danog\MadelineProto\Namespace\Fragment` 
+* `$aicompose`: `\danog\MadelineProto\Namespace\Aicompose` 
 
 ## Method list:
 * [`startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startAndLoop)

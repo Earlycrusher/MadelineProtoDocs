@@ -2229,7 +2229,7 @@ $MadelineProto->[messages->setBotCallbackAnswer](/API_docs/methods/messages.setB
 
 ***
 <br><br>
-$MadelineProto->[messages->setBotGuestChatResult](/API_docs/methods/messages.setBotGuestChatResult.html)(\[query_id: $[long](/API_docs/types/long.html), result: $[InputBotInlineResult](/API_docs/types/InputBotInlineResult.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.setBotGuestChatResult"></a>  
+$MadelineProto->[messages->setBotGuestChatResult](/API_docs/methods/messages.setBotGuestChatResult.html)(\[query_id: $[long](/API_docs/types/long.html), result: $[InputBotInlineResult](/API_docs/types/InputBotInlineResult.html), \]) === [$InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html)<a name="messages.setBotGuestChatResult"></a>  
 
 ***
 <br><br>
