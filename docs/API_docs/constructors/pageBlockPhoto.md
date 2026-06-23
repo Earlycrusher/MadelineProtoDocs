@@ -15,6 +15,7 @@ A photo
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|
 |photo\_id|[long](/API_docs/types/long.html) | Yes|Photo ID|
 |caption|[PageCaption](/API_docs/types/PageCaption.html) | Yes|Caption|
 |url|[string](/API_docs/types/string.html) | Optional|HTTP URL of page the photo leads to when clicked|
@@ -28,5 +29,5 @@ A photo
 ### Example:
 
 ```
-$pageBlockPhoto = ['_' => 'pageBlockPhoto', 'photo_id' => long, 'caption' => PageCaption, 'url' => 'string', 'webpage_id' => long];
+$pageBlockPhoto = ['_' => 'pageBlockPhoto', 'spoiler' => Bool, 'photo_id' => long, 'caption' => PageCaption, 'url' => 'string', 'webpage_id' => long];
 ```  

@@ -15,8 +15,12 @@ Ordered list of text items
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|num|[string](/API_docs/types/string.html) | Yes|Number of element within ordered list|
+|checkbox|[Bool](/API_docs/types/Bool.html) | Optional|
+|checked|[Bool](/API_docs/types/Bool.html) | Optional|
+|num|[string](/API_docs/types/string.html) | Optional|Number of element within ordered list|
 |text|[RichText](/API_docs/types/RichText.html) | Yes|Text|
+|value|[int](/API_docs/types/int.html) | Optional|
+|type|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -26,5 +30,5 @@ Ordered list of text items
 ### Example:
 
 ```
-$pageListOrderedItemText = ['_' => 'pageListOrderedItemText', 'num' => 'string', 'text' => RichText];
+$pageListOrderedItemText = ['_' => 'pageListOrderedItemText', 'checkbox' => Bool, 'checked' => Bool, 'num' => 'string', 'text' => RichText, 'value' => int, 'type' => 'string'];
 ```  

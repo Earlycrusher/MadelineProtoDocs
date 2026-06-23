@@ -54,6 +54,8 @@ redirect_from: /API_docs/types/messages_Messages.html
 
 [$MadelineProto->messages->getPersonalChannelHistory](/API_docs/methods/messages.getPersonalChannelHistory.html)  
 
+[$MadelineProto->messages->getRichMessage](/API_docs/methods/messages.getRichMessage.html)  
+
 [$MadelineProto->channels->getMessages](/API_docs/methods/channels.getMessages.html)  
 
 [$MadelineProto->channels->searchPosts](/API_docs/methods/channels.searchPosts.html)  

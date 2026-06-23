@@ -21,7 +21,7 @@ redirect_from: /API_docs/methods/bots_exportBotToken.html
 
 ### Return type: [bots.ExportedBotToken](/API_docs/types/bots.ExportedBotToken.html)
 
-### Can users use this method: **YES**
+### Can users use this method: **NO**
 
 
 ### Can bots use this method: **YES**

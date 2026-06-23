@@ -986,6 +986,10 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateManagedBot &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateManagedBot.html) - 
 * [onUpdateBotGuestChatQuery &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotGuestChatQuery.html) - 
 * [onUpdateAiComposeTones &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateAiComposeTones.html) - 
+* [onUpdateJoinChatWebViewDecision &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateJoinChatWebViewDecision.html) - 
+* [onUpdateNewBotConnection &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateNewBotConnection.html) - 
+* [onUpdateWebBrowserSettings &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateWebBrowserSettings.html) - 
+* [onUpdateWebBrowserException &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateWebBrowserException.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

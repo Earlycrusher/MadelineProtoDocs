@@ -1894,13 +1894,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.updatePasswordSettings.html" name="account.updatePasswordSettings">You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.updatePasswordSettings</a>
 
+* <a href="account.confirmBotConnection.html" name="account.confirmBotConnection">account.confirmBotConnection</a>
+
 * <a href="account.deletePasskey.html" name="account.deletePasskey">account.deletePasskey</a>
 
+* <a href="account.deleteWebBrowserSettingsExceptions.html" name="account.deleteWebBrowserSettingsExceptions">account.deleteWebBrowserSettingsExceptions</a>
+
 * <a href="account.getPasskeys.html" name="account.getPasskeys">account.getPasskeys</a>
+
+* <a href="account.getWebBrowserSettings.html" name="account.getWebBrowserSettings">account.getWebBrowserSettings</a>
 
 * <a href="account.initPasskeyRegistration.html" name="account.initPasskeyRegistration">account.initPasskeyRegistration</a>
 
 * <a href="account.registerPasskey.html" name="account.registerPasskey">account.registerPasskey</a>
+
+* <a href="account.toggleWebBrowserSettingsException.html" name="account.toggleWebBrowserSettingsException">account.toggleWebBrowserSettingsException</a>
+
+* <a href="account.updateWebBrowserSettings.html" name="account.updateWebBrowserSettings">account.updateWebBrowserSettings</a>
 
 * <a href="aicompose.createTone.html" name="aicompose.createTone">aicompose.createTone</a>
 
@@ -1938,6 +1948,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.requestWebViewButton.html" name="bots.requestWebViewButton">bots.requestWebViewButton</a>
 
+* <a href="bots.setJoinChatResults.html" name="bots.setJoinChatResults">bots.setJoinChatResults</a>
+
 * <a href="contacts.updateContactNote.html" name="contacts.updateContactNote">contacts.updateContactNote</a>
 
 * <a href="messages.addPollAnswer.html" name="messages.addPollAnswer">messages.addPollAnswer</a>
@@ -1973,6 +1985,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.getFutureChatCreatorAfterLeave.html" name="messages.getFutureChatCreatorAfterLeave">messages.getFutureChatCreatorAfterLeave</a>
 
 * <a href="messages.getPersonalChannelHistory.html" name="messages.getPersonalChannelHistory">messages.getPersonalChannelHistory</a>
+
+* <a href="messages.getRichMessage.html" name="messages.getRichMessage">messages.getRichMessage</a>
 
 * <a href="messages.getUnreadPollVotes.html" name="messages.getUnreadPollVotes">messages.getUnreadPollVotes</a>
 

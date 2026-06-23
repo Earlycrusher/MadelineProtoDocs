@@ -357,6 +357,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputReplyTo](/API_docs/types/InputReplyTo.html)<a name="InputReplyTo"></a>  
 
+[InputRichFile](/API_docs/types/InputRichFile.html)<a name="InputRichFile"></a>  
+
+[InputRichMessage](/API_docs/types/InputRichMessage.html)<a name="InputRichMessage"></a>  
+
 [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html)<a name="InputSavedStarGift"></a>  
 
 [InputSecureFile](/API_docs/types/InputSecureFile.html)<a name="InputSecureFile"></a>  
@@ -394,6 +398,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [JSONObjectValue](/API_docs/types/JSONObjectValue.html)<a name="JSONObjectValue"></a>  
 
 [JSONValue](/API_docs/types/JSONValue.html)<a name="JSONValue"></a>  
+
+[JoinChatBotResult](/API_docs/types/JoinChatBotResult.html)<a name="JoinChatBotResult"></a>  
 
 [KeyboardButton](/API_docs/types/KeyboardButton.html)<a name="KeyboardButton"></a>  
 
@@ -578,6 +584,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [RequirementToContact](/API_docs/types/RequirementToContact.html)<a name="RequirementToContact"></a>  
 
 [RestrictionReason](/API_docs/types/RestrictionReason.html)<a name="RestrictionReason"></a>  
+
+[RichMessage](/API_docs/types/RichMessage.html)<a name="RichMessage"></a>  
 
 [RichText](/API_docs/types/RichText.html)<a name="RichText"></a>  
 
@@ -771,6 +779,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [WebDocument](/API_docs/types/WebDocument.html)<a name="WebDocument"></a>  
 
+[WebDomainException](/API_docs/types/WebDomainException.html)<a name="WebDomainException"></a>  
+
 [WebPage](/API_docs/types/WebPage.html)<a name="WebPage"></a>  
 
 [WebPageAttribute](/API_docs/types/WebPageAttribute.html)<a name="WebPageAttribute"></a>  
@@ -836,6 +846,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account.WallPapers](/API_docs/types/account.WallPapers.html)<a name="account.WallPapers"></a>  
 
 [account.WebAuthorizations](/API_docs/types/account.WebAuthorizations.html)<a name="account.WebAuthorizations"></a>  
+
+[account.WebBrowserSettings](/API_docs/types/account.WebBrowserSettings.html)<a name="account.WebBrowserSettings"></a>  
 
 [aicompose.Tones](/API_docs/types/aicompose.Tones.html)<a name="aicompose.Tones"></a>  
 
@@ -976,6 +988,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.ChatFull](/API_docs/types/messages.ChatFull.html)<a name="messages.ChatFull"></a>  
 
 [messages.ChatInviteImporters](/API_docs/types/messages.ChatInviteImporters.html)<a name="messages.ChatInviteImporters"></a>  
+
+[messages.ChatInviteJoinResult](/API_docs/types/messages.ChatInviteJoinResult.html)<a name="messages.ChatInviteJoinResult"></a>  
 
 [messages.Chats](/API_docs/types/messages.Chats.html)<a name="messages.Chats"></a>  
 

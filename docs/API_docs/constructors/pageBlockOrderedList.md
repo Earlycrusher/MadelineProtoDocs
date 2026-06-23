@@ -15,7 +15,10 @@ Ordered list of IV blocks
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|reversed|[Bool](/API_docs/types/Bool.html) | Optional|
 |items|Array of [PageListOrderedItem](/API_docs/types/PageListOrderedItem.html) | Yes|List items|
+|start|[int](/API_docs/types/int.html) | Optional|
+|type|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -25,5 +28,5 @@ Ordered list of IV blocks
 ### Example:
 
 ```
-$pageBlockOrderedList = ['_' => 'pageBlockOrderedList', 'items' => [PageListOrderedItem, PageListOrderedItem]];
+$pageBlockOrderedList = ['_' => 'pageBlockOrderedList', 'reversed' => Bool, 'items' => [PageListOrderedItem, PageListOrderedItem], 'start' => int, 'type' => 'string'];
 ```  

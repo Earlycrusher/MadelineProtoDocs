@@ -20,7 +20,7 @@ redirect_from: /API_docs/methods/bots_getAccessSettings.html
 
 ### Return type: [bots.AccessSettings](/API_docs/types/bots.AccessSettings.html)
 
-### Can users use this method: **YES**
+### Can users use this method: **NO**
 
 
 ### Can bots use this method: **YES**

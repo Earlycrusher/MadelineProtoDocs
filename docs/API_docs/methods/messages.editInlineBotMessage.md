@@ -25,6 +25,7 @@ Edit an inline bot message
 |reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Reply markup for inline keyboards | Optional|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
+|rich\_message|[InputRichMessage](/API_docs/types/InputRichMessage.html) |  | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -50,7 +51,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->editInlineBotMessage(no_webpage: $Bool, invert_media: $Bool, id: $InputBotInlineMessageID, message: 'string', media: $InputMedia, reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', );
+$Bool = $MadelineProto->messages->editInlineBotMessage(no_webpage: $Bool, invert_media: $Bool, id: $InputBotInlineMessageID, message: 'string', media: $InputMedia, reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', rich_message: $InputRichMessage, );
 ```
 
 

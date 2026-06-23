@@ -15,6 +15,8 @@ List item
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|checkbox|[Bool](/API_docs/types/Bool.html) | Optional|
+|checked|[Bool](/API_docs/types/Bool.html) | Optional|
 |text|[RichText](/API_docs/types/RichText.html) | Yes|Text|
 
 
@@ -25,5 +27,5 @@ List item
 ### Example:
 
 ```
-$pageListItemText = ['_' => 'pageListItemText', 'text' => RichText];
+$pageListItemText = ['_' => 'pageListItemText', 'checkbox' => Bool, 'checked' => Bool, 'text' => RichText];
 ```  

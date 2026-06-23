@@ -17,6 +17,8 @@ Returns users found by username substring.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|broadcasts|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|bots|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |q|[string](/API_docs/types/string.html) | Target substring | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of users to be returned | Optional|
 
@@ -44,6 +46,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_Found = $MadelineProto->contacts->search(q: 'string', limit: $int, );
+$contacts_Found = $MadelineProto->contacts->search(broadcasts: $Bool, bots: $Bool, q: 'string', limit: $int, );
 ```
 

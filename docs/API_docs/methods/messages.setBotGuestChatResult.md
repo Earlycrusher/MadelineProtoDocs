@@ -21,7 +21,7 @@ redirect_from: /API_docs/methods/messages_setBotGuestChatResult.html
 
 ### Return type: [InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html)
 
-### Can users use this method: **YES**
+### Can users use this method: **NO**
 
 
 ### Can bots use this method: **YES**

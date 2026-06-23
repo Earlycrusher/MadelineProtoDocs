@@ -20,7 +20,7 @@ Join a channel/supergroup
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel/supergroup to join | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.html)
+### Return type: [messages.ChatInviteJoinResult](/API_docs/types/messages.ChatInviteJoinResult.html)
 
 ### Can users use this method: **YES**
 
@@ -43,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->joinChannel(channel: $InputChannel, );
+$messages_ChatInviteJoinResult = $MadelineProto->channels->joinChannel(channel: $InputChannel, );
 ```
 

@@ -15,6 +15,8 @@ List item
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|checkbox|[Bool](/API_docs/types/Bool.html) | Optional|
+|checked|[Bool](/API_docs/types/Bool.html) | Optional|
 |blocks|Array of [PageBlock](/API_docs/types/PageBlock.html) | Yes|Blocks|
 
 
@@ -25,5 +27,5 @@ List item
 ### Example:
 
 ```
-$pageListItemBlocks = ['_' => 'pageListItemBlocks', 'blocks' => [PageBlock, PageBlock]];
+$pageListItemBlocks = ['_' => 'pageListItemBlocks', 'checkbox' => Bool, 'checked' => Bool, 'blocks' => [PageBlock, PageBlock]];
 ```  

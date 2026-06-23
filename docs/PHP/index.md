@@ -415,6 +415,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\RPCError\SubscriptionExportMissingError: You cannot send a [bot subscription invoice](https://core.telegram.org/api/subscriptions#bot-subscriptions) directly, you may only create invoice links using [payments.exportInvoice](https://core.telegram.org/method/payments.exportInvoice).](/PHP/danog/MadelineProto/RPCError/SubscriptionExportMissingError.html)
 * [\danog\MadelineProto\RPCError\TimeoutError: Represents a request timeout RPC error returned by telegram (as opposed to one returned by MadelineProto, which will be a {@see TimeoutException}).](/PHP/danog/MadelineProto/RPCError/TimeoutError.html)
 * [\danog\MadelineProto\RPCError\TodoItemDuplicateError: Duplicate [checklist items](https://core.telegram.org/api/todo) detected.](/PHP/danog/MadelineProto/RPCError/TodoItemDuplicateError.html)
+* [\danog\MadelineProto\RPCError\TodoItemsTooMuchError: You specified too many todo list items.](/PHP/danog/MadelineProto/RPCError/TodoItemsTooMuchError.html)
 * [\danog\MadelineProto\RPCError\TopicClosedError: This topic was closed, you can't send messages to it anymore.](/PHP/danog/MadelineProto/RPCError/TopicClosedError.html)
 * [\danog\MadelineProto\RPCError\TopicDeletedError: The specified topic was deleted.](/PHP/danog/MadelineProto/RPCError/TopicDeletedError.html)
 * [\danog\MadelineProto\RPCError\UserBannedInChannelError: You're banned from sending messages in supergroups/channels.](/PHP/danog/MadelineProto/RPCError/UserBannedInChannelError.html)

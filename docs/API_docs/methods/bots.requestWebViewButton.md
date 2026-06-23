@@ -21,7 +21,7 @@ redirect_from: /API_docs/methods/bots_requestWebViewButton.html
 
 ### Return type: [bots.RequestedButton](/API_docs/types/bots.RequestedButton.html)
 
-### Can users use this method: **YES**
+### Can users use this method: **NO**
 
 
 ### Can bots use this method: **YES**

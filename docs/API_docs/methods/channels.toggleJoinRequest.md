@@ -17,8 +17,10 @@ Set whether all users should [request admin approval to join the group »](https
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|apply\_to\_invites|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Group | Optional|
 |enabled|[Bool](/API_docs/types/Bool.html) | Toggle | Yes|
+|guard\_bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -44,6 +46,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->toggleJoinRequest(channel: $InputChannel, enabled: $Bool, );
+$Updates = $MadelineProto->channels->toggleJoinRequest(apply_to_invites: $Bool, channel: $InputChannel, enabled: $Bool, guard_bot: $InputUser, );
 ```
 

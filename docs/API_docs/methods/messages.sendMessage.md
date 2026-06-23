@@ -38,6 +38,7 @@ Sends a message to a chat
 |effect|[long](/API_docs/types/long.html) | Specifies a [message effect »](https://core.telegram.org/api/effects) to use for the message. | Optional|
 |allow\_paid\_stars|[long](/API_docs/types/long.html) | For [paid messages »](https://core.telegram.org/api/paid-messages), specifies the amount of [Telegram Stars](https://core.telegram.org/api/stars) the user has agreed to pay in order to send the message. | Optional|
 |suggested\_post|[SuggestedPost](/API_docs/types/SuggestedPost.html) | Used to [suggest a post to a channel, see here »](https://core.telegram.org/api/suggested-posts) for more info on the full flow. | Optional|
+|rich\_message|[InputRichMessage](/API_docs/types/InputRichMessage.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -63,7 +64,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendMessage(no_webpage: $Bool, silent: $Bool, background: $Bool, clear_draft: $Bool, noforwards: $Bool, update_stickersets_order: $Bool, invert_media: $Bool, allow_paid_floodskip: $Bool, peer: $InputPeer, reply_to: $InputReplyTo, message: 'string', reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', schedule_date: $int, schedule_repeat_period: $int, send_as: $InputPeer, quick_reply_shortcut: $InputQuickReplyShortcut, effect: $long, allow_paid_stars: $long, suggested_post: $SuggestedPost, );
+$Updates = $MadelineProto->messages->sendMessage(no_webpage: $Bool, silent: $Bool, background: $Bool, clear_draft: $Bool, noforwards: $Bool, update_stickersets_order: $Bool, invert_media: $Bool, allow_paid_floodskip: $Bool, peer: $InputPeer, reply_to: $InputReplyTo, message: 'string', reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', schedule_date: $int, schedule_repeat_period: $int, send_as: $InputPeer, quick_reply_shortcut: $InputQuickReplyShortcut, effect: $long, allow_paid_stars: $long, suggested_post: $SuggestedPost, rich_message: $InputRichMessage, );
 ```
 
 

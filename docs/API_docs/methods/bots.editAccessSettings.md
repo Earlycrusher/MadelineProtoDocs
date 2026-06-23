@@ -22,7 +22,7 @@ redirect_from: /API_docs/methods/bots_editAccessSettings.html
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
-### Can users use this method: **YES**
+### Can users use this method: **NO**
 
 
 ### Can bots use this method: **YES**

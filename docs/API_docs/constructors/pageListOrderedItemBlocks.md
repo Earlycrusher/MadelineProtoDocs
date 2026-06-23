@@ -15,8 +15,12 @@ Ordered list of [IV](https://instantview.telegram.org) blocks
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|num|[string](/API_docs/types/string.html) | Yes|Number of element within ordered list|
+|checkbox|[Bool](/API_docs/types/Bool.html) | Optional|
+|checked|[Bool](/API_docs/types/Bool.html) | Optional|
+|num|[string](/API_docs/types/string.html) | Optional|Number of element within ordered list|
 |blocks|Array of [PageBlock](/API_docs/types/PageBlock.html) | Yes|Item contents|
+|value|[int](/API_docs/types/int.html) | Optional|
+|type|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -26,5 +30,5 @@ Ordered list of [IV](https://instantview.telegram.org) blocks
 ### Example:
 
 ```
-$pageListOrderedItemBlocks = ['_' => 'pageListOrderedItemBlocks', 'num' => 'string', 'blocks' => [PageBlock, PageBlock]];
+$pageListOrderedItemBlocks = ['_' => 'pageListOrderedItemBlocks', 'checkbox' => Bool, 'checked' => Bool, 'num' => 'string', 'blocks' => [PageBlock, PageBlock], 'value' => int, 'type' => 'string'];
 ```  

@@ -43,6 +43,32 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [textAnchor](/API_docs/constructors/textAnchor.html)  
 
+[textMath](/API_docs/constructors/textMath.html)  
+
+[textCustomEmoji](/API_docs/constructors/textCustomEmoji.html)  
+
+[textSpoiler](/API_docs/constructors/textSpoiler.html)  
+
+[textMention](/API_docs/constructors/textMention.html)  
+
+[textHashtag](/API_docs/constructors/textHashtag.html)  
+
+[textBotCommand](/API_docs/constructors/textBotCommand.html)  
+
+[textCashtag](/API_docs/constructors/textCashtag.html)  
+
+[textAutoUrl](/API_docs/constructors/textAutoUrl.html)  
+
+[textAutoEmail](/API_docs/constructors/textAutoEmail.html)  
+
+[textAutoPhone](/API_docs/constructors/textAutoPhone.html)  
+
+[textBankCard](/API_docs/constructors/textBankCard.html)  
+
+[textMentionName](/API_docs/constructors/textMentionName.html)  
+
+[textDate](/API_docs/constructors/textDate.html)  
+
 
 
 ### Methods that return an object of this type (methods):

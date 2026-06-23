@@ -24,7 +24,7 @@ redirect_from: /API_docs/methods/messages_getPersonalChannelHistory.html
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
 
-### Can users use this method: **YES**
+### Can users use this method: **NO**
 
 
 ### Can bots use this method: **YES**

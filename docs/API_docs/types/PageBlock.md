@@ -69,6 +69,26 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [pageBlockMap](/API_docs/constructors/pageBlockMap.html)  
 
+[pageBlockHeading1](/API_docs/constructors/pageBlockHeading1.html)  
+
+[pageBlockHeading2](/API_docs/constructors/pageBlockHeading2.html)  
+
+[pageBlockHeading3](/API_docs/constructors/pageBlockHeading3.html)  
+
+[pageBlockHeading4](/API_docs/constructors/pageBlockHeading4.html)  
+
+[pageBlockHeading5](/API_docs/constructors/pageBlockHeading5.html)  
+
+[pageBlockHeading6](/API_docs/constructors/pageBlockHeading6.html)  
+
+[pageBlockMath](/API_docs/constructors/pageBlockMath.html)  
+
+[pageBlockThinking](/API_docs/constructors/pageBlockThinking.html)  
+
+[inputPageBlockMap](/API_docs/constructors/inputPageBlockMap.html)  
+
+[pageBlockBlockquoteBlocks](/API_docs/constructors/pageBlockBlockquoteBlocks.html)  
+
 
 
 ### Methods that return an object of this type (methods):

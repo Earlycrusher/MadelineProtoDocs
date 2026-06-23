@@ -323,6 +323,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateAiComposeTones](/API_docs/constructors/updateAiComposeTones.html)  
 
+[updateJoinChatWebViewDecision](/API_docs/constructors/updateJoinChatWebViewDecision.html)  
+
+[updateNewBotConnection](/API_docs/constructors/updateNewBotConnection.html)  
+
+[updateWebBrowserSettings](/API_docs/constructors/updateWebBrowserSettings.html)  
+
+[updateWebBrowserException](/API_docs/constructors/updateWebBrowserException.html)  
+
 
 
 ### Methods that return an object of this type (methods):

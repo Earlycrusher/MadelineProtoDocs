@@ -29,6 +29,7 @@ Edit message
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
 |schedule\_repeat\_period|[int](/API_docs/types/int.html) |  | Optional|
 |quick\_reply\_shortcut\_id|[int](/API_docs/types/int.html) | If specified, edits a [quick reply shortcut message, instead »](https://core.telegram.org/api/business#quick-reply-shortcuts). | Optional|
+|rich\_message|[InputRichMessage](/API_docs/types/InputRichMessage.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -54,7 +55,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->editMessage(no_webpage: $Bool, invert_media: $Bool, peer: $InputPeer, id: $int, message: 'string', media: $InputMedia, reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', schedule_date: $int, schedule_repeat_period: $int, quick_reply_shortcut_id: $int, );
+$Updates = $MadelineProto->messages->editMessage(no_webpage: $Bool, invert_media: $Bool, peer: $InputPeer, id: $int, message: 'string', media: $InputMedia, reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', schedule_date: $int, schedule_repeat_period: $int, quick_reply_shortcut_id: $int, rich_message: $InputRichMessage, );
 ```
 
 

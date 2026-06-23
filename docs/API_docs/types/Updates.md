@@ -50,6 +50,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->account->getBotBusinessConnection](/API_docs/methods/account.getBotBusinessConnection.html)  
 
+[$MadelineProto->account->toggleWebBrowserSettingsException](/API_docs/methods/account.toggleWebBrowserSettingsException.html)  
+
 [$MadelineProto->users->suggestBirthday](/API_docs/methods/users.suggestBirthday.html)  
 
 [$MadelineProto->contacts->deleteContacts](/API_docs/methods/contacts.deleteContacts.html)  
@@ -73,8 +75,6 @@ $message = $MadelineProto->extractMessageId($Updates);
 [$MadelineProto->messages->editChatPhoto](/API_docs/methods/messages.editChatPhoto.html)  
 
 [$MadelineProto->messages->deleteChatUser](/API_docs/methods/messages.deleteChatUser.html)  
-
-[$MadelineProto->messages->importChatInvite](/API_docs/methods/messages.importChatInvite.html)  
 
 [$MadelineProto->messages->startBot](/API_docs/methods/messages.startBot.html)  
 
@@ -171,8 +171,6 @@ $message = $MadelineProto->extractMessageId($Updates);
 [$MadelineProto->channels->editTitle](/API_docs/methods/channels.editTitle.html)  
 
 [$MadelineProto->channels->editPhoto](/API_docs/methods/channels.editPhoto.html)  
-
-[$MadelineProto->channels->joinChannel](/API_docs/methods/channels.joinChannel.html)  
 
 [$MadelineProto->channels->leaveChannel](/API_docs/methods/channels.leaveChannel.html)  
 

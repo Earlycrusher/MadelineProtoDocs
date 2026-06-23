@@ -25,6 +25,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [botInlineMessageMediaWebPage](/API_docs/constructors/botInlineMessageMediaWebPage.html)  
 
+[botInlineMessageRichMessage](/API_docs/constructors/botInlineMessageRichMessage.html)  
+
 
 
 ### Methods that return an object of this type (methods):

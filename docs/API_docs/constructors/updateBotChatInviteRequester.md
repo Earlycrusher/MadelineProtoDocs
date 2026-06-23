@@ -21,6 +21,7 @@ Someone has requested to join a chat or channel (bots only, users will receive a
 |about|[string](/API_docs/types/string.html) | Yes|Bio of the user|
 |invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|Chat invite link that was used by the user to send the [join request »](https://core.telegram.org/api/invites#join-requests)|
 |qts|[int](/API_docs/types/int.html) | Yes|[QTS](https://core.telegram.org/api/updates) event sequence identifier|
+|query\_id|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -30,5 +31,5 @@ Someone has requested to join a chat or channel (bots only, users will receive a
 ### Example:
 
 ```
-$updateBotChatInviteRequester = ['_' => 'updateBotChatInviteRequester', 'peer' => long, 'date' => int, 'user_id' => long, 'about' => 'string', 'invite' => ExportedChatInvite, 'qts' => int];
+$updateBotChatInviteRequester = ['_' => 'updateBotChatInviteRequester', 'peer' => long, 'date' => int, 'user_id' => long, 'about' => 'string', 'invite' => ExportedChatInvite, 'qts' => int, 'query_id' => long];
 ```  

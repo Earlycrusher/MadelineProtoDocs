@@ -122,6 +122,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$account.webAuthorizations](/API_docs/constructors/account.webAuthorizations.html) = \['authorizations' => \[[WebAuthorization](/API_docs/types/WebAuthorization.html)\], 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="account.webAuthorizations"></a>  
 
 ***
+<br><br>[$account.webBrowserSettings](/API_docs/constructors/account.webBrowserSettings.html) = \['open_external_browser' => [Bool](/API_docs/types/Bool.html), 'display_close_button' => [Bool](/API_docs/types/Bool.html), 'external_exceptions' => \[[WebDomainException](/API_docs/types/WebDomainException.html)\], 'inapp_exceptions' => \[[WebDomainException](/API_docs/types/WebDomainException.html)\], 'hash' => [long](/API_docs/types/long.html), \];<a name="account.webBrowserSettings"></a>  
+
+***
+<br><br>[$account.webBrowserSettingsNotModified](/API_docs/constructors/account.webBrowserSettingsNotModified.html) = \[\];<a name="account.webBrowserSettingsNotModified"></a>  
+
+***
 <br><br>[$accountDaysTTL](/API_docs/constructors/accountDaysTTL.html) = \['days' => [int](/API_docs/types/int.html), \];<a name="accountDaysTTL"></a>  
 
 ***
@@ -366,6 +372,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$botInlineMessageMediaWebPage](/API_docs/constructors/botInlineMessageMediaWebPage.html) = \['invert_media' => [Bool](/API_docs/types/Bool.html), 'force_large_media' => [Bool](/API_docs/types/Bool.html), 'force_small_media' => [Bool](/API_docs/types/Bool.html), 'manual' => [Bool](/API_docs/types/Bool.html), 'safe' => [Bool](/API_docs/types/Bool.html), 'message' => [string](/API_docs/types/string.html), 'entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], 'url' => [string](/API_docs/types/string.html), 'reply_markup' => [ReplyMarkup](/API_docs/types/ReplyMarkup.html), \];<a name="botInlineMessageMediaWebPage"></a>  
+
+***
+<br><br>[$botInlineMessageRichMessage](/API_docs/constructors/botInlineMessageRichMessage.html) = \['reply_markup' => [ReplyMarkup](/API_docs/types/ReplyMarkup.html), 'rich_message' => [RichMessage](/API_docs/types/RichMessage.html), \];<a name="botInlineMessageRichMessage"></a>  
 
 ***
 <br><br>[$botInlineMessageText](/API_docs/constructors/botInlineMessageText.html) = \['no_webpage' => [Bool](/API_docs/types/Bool.html), 'invert_media' => [Bool](/API_docs/types/Bool.html), 'message' => [string](/API_docs/types/string.html), 'entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], 'reply_markup' => [ReplyMarkup](/API_docs/types/ReplyMarkup.html), \];<a name="botInlineMessageText"></a>  
@@ -623,7 +632,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$channelForbidden](/API_docs/constructors/channelForbidden.html) = \['broadcast' => [Bool](/API_docs/types/Bool.html), 'megagroup' => [Bool](/API_docs/types/Bool.html), 'monoforum' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'title' => [string](/API_docs/types/string.html), 'until_date' => [int](/API_docs/types/int.html), \];<a name="channelForbidden"></a>  
 
 ***
-<br><br>[$channelFull](/API_docs/constructors/channelFull.html) = \['can_view_participants' => [Bool](/API_docs/types/Bool.html), 'can_set_username' => [Bool](/API_docs/types/Bool.html), 'can_set_stickers' => [Bool](/API_docs/types/Bool.html), 'hidden_prehistory' => [Bool](/API_docs/types/Bool.html), 'can_set_location' => [Bool](/API_docs/types/Bool.html), 'has_scheduled' => [Bool](/API_docs/types/Bool.html), 'can_view_stats' => [Bool](/API_docs/types/Bool.html), 'blocked' => [Bool](/API_docs/types/Bool.html), 'can_delete_channel' => [Bool](/API_docs/types/Bool.html), 'antispam' => [Bool](/API_docs/types/Bool.html), 'participants_hidden' => [Bool](/API_docs/types/Bool.html), 'translations_disabled' => [Bool](/API_docs/types/Bool.html), 'stories_pinned_available' => [Bool](/API_docs/types/Bool.html), 'view_forum_as_messages' => [Bool](/API_docs/types/Bool.html), 'restricted_sponsored' => [Bool](/API_docs/types/Bool.html), 'can_view_revenue' => [Bool](/API_docs/types/Bool.html), 'paid_media_allowed' => [Bool](/API_docs/types/Bool.html), 'can_view_stars_revenue' => [Bool](/API_docs/types/Bool.html), 'paid_reactions_available' => [Bool](/API_docs/types/Bool.html), 'stargifts_available' => [Bool](/API_docs/types/Bool.html), 'paid_messages_available' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'about' => [string](/API_docs/types/string.html), 'participants_count' => [int](/API_docs/types/int.html), 'admins_count' => [int](/API_docs/types/int.html), 'kicked_count' => [int](/API_docs/types/int.html), 'banned_count' => [int](/API_docs/types/int.html), 'online_count' => [int](/API_docs/types/int.html), 'read_inbox_max_id' => [int](/API_docs/types/int.html), 'read_outbox_max_id' => [int](/API_docs/types/int.html), 'unread_count' => [int](/API_docs/types/int.html), 'chat_photo' => [Photo](/API_docs/types/Photo.html), 'notify_settings' => [PeerNotifySettings](/API_docs/types/PeerNotifySettings.html), 'exported_invite' => [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html), 'bot_info' => \[[BotInfo](/API_docs/types/BotInfo.html)\], 'migrated_from_chat_id' => [long](/API_docs/types/long.html), 'migrated_from_max_id' => [int](/API_docs/types/int.html), 'pinned_msg_id' => [int](/API_docs/types/int.html), 'stickerset' => [StickerSet](/API_docs/types/StickerSet.html), 'available_min_id' => [int](/API_docs/types/int.html), 'folder_id' => [int](/API_docs/types/int.html), 'linked_chat_id' => [long](/API_docs/types/long.html), 'location' => [ChannelLocation](/API_docs/types/ChannelLocation.html), 'slowmode_seconds' => [int](/API_docs/types/int.html), 'slowmode_next_send_date' => [int](/API_docs/types/int.html), 'stats_dc' => [int](/API_docs/types/int.html), 'pts' => [int](/API_docs/types/int.html), 'call' => [InputGroupCall](/API_docs/types/InputGroupCall.html), 'ttl_period' => [int](/API_docs/types/int.html), 'pending_suggestions' => \[[string](/API_docs/types/string.html)\], 'groupcall_default_join_as' => [Peer](/API_docs/types/Peer.html), 'theme_emoticon' => [string](/API_docs/types/string.html), 'requests_pending' => [int](/API_docs/types/int.html), 'recent_requesters' => \[[long](/API_docs/types/long.html)\], 'default_send_as' => [Peer](/API_docs/types/Peer.html), 'available_reactions' => [ChatReactions](/API_docs/types/ChatReactions.html), 'reactions_limit' => [int](/API_docs/types/int.html), 'stories' => [PeerStories](/API_docs/types/PeerStories.html), 'wallpaper' => [WallPaper](/API_docs/types/WallPaper.html), 'boosts_applied' => [int](/API_docs/types/int.html), 'boosts_unrestrict' => [int](/API_docs/types/int.html), 'emojiset' => [StickerSet](/API_docs/types/StickerSet.html), 'bot_verification' => [BotVerification](/API_docs/types/BotVerification.html), 'stargifts_count' => [int](/API_docs/types/int.html), 'send_paid_messages_stars' => [long](/API_docs/types/long.html), 'main_tab' => [ProfileTab](/API_docs/types/ProfileTab.html), \];<a name="channelFull"></a>  
+<br><br>[$channelFull](/API_docs/constructors/channelFull.html) = \['can_view_participants' => [Bool](/API_docs/types/Bool.html), 'can_set_username' => [Bool](/API_docs/types/Bool.html), 'can_set_stickers' => [Bool](/API_docs/types/Bool.html), 'hidden_prehistory' => [Bool](/API_docs/types/Bool.html), 'can_set_location' => [Bool](/API_docs/types/Bool.html), 'has_scheduled' => [Bool](/API_docs/types/Bool.html), 'can_view_stats' => [Bool](/API_docs/types/Bool.html), 'blocked' => [Bool](/API_docs/types/Bool.html), 'can_delete_channel' => [Bool](/API_docs/types/Bool.html), 'antispam' => [Bool](/API_docs/types/Bool.html), 'participants_hidden' => [Bool](/API_docs/types/Bool.html), 'translations_disabled' => [Bool](/API_docs/types/Bool.html), 'stories_pinned_available' => [Bool](/API_docs/types/Bool.html), 'view_forum_as_messages' => [Bool](/API_docs/types/Bool.html), 'restricted_sponsored' => [Bool](/API_docs/types/Bool.html), 'can_view_revenue' => [Bool](/API_docs/types/Bool.html), 'paid_media_allowed' => [Bool](/API_docs/types/Bool.html), 'can_view_stars_revenue' => [Bool](/API_docs/types/Bool.html), 'paid_reactions_available' => [Bool](/API_docs/types/Bool.html), 'stargifts_available' => [Bool](/API_docs/types/Bool.html), 'paid_messages_available' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'about' => [string](/API_docs/types/string.html), 'participants_count' => [int](/API_docs/types/int.html), 'admins_count' => [int](/API_docs/types/int.html), 'kicked_count' => [int](/API_docs/types/int.html), 'banned_count' => [int](/API_docs/types/int.html), 'online_count' => [int](/API_docs/types/int.html), 'read_inbox_max_id' => [int](/API_docs/types/int.html), 'read_outbox_max_id' => [int](/API_docs/types/int.html), 'unread_count' => [int](/API_docs/types/int.html), 'chat_photo' => [Photo](/API_docs/types/Photo.html), 'notify_settings' => [PeerNotifySettings](/API_docs/types/PeerNotifySettings.html), 'exported_invite' => [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html), 'bot_info' => \[[BotInfo](/API_docs/types/BotInfo.html)\], 'migrated_from_chat_id' => [long](/API_docs/types/long.html), 'migrated_from_max_id' => [int](/API_docs/types/int.html), 'pinned_msg_id' => [int](/API_docs/types/int.html), 'stickerset' => [StickerSet](/API_docs/types/StickerSet.html), 'available_min_id' => [int](/API_docs/types/int.html), 'folder_id' => [int](/API_docs/types/int.html), 'linked_chat_id' => [long](/API_docs/types/long.html), 'location' => [ChannelLocation](/API_docs/types/ChannelLocation.html), 'slowmode_seconds' => [int](/API_docs/types/int.html), 'slowmode_next_send_date' => [int](/API_docs/types/int.html), 'stats_dc' => [int](/API_docs/types/int.html), 'pts' => [int](/API_docs/types/int.html), 'call' => [InputGroupCall](/API_docs/types/InputGroupCall.html), 'ttl_period' => [int](/API_docs/types/int.html), 'pending_suggestions' => \[[string](/API_docs/types/string.html)\], 'groupcall_default_join_as' => [Peer](/API_docs/types/Peer.html), 'theme_emoticon' => [string](/API_docs/types/string.html), 'requests_pending' => [int](/API_docs/types/int.html), 'recent_requesters' => \[[long](/API_docs/types/long.html)\], 'default_send_as' => [Peer](/API_docs/types/Peer.html), 'available_reactions' => [ChatReactions](/API_docs/types/ChatReactions.html), 'reactions_limit' => [int](/API_docs/types/int.html), 'stories' => [PeerStories](/API_docs/types/PeerStories.html), 'wallpaper' => [WallPaper](/API_docs/types/WallPaper.html), 'boosts_applied' => [int](/API_docs/types/int.html), 'boosts_unrestrict' => [int](/API_docs/types/int.html), 'emojiset' => [StickerSet](/API_docs/types/StickerSet.html), 'bot_verification' => [BotVerification](/API_docs/types/BotVerification.html), 'stargifts_count' => [int](/API_docs/types/int.html), 'send_paid_messages_stars' => [long](/API_docs/types/long.html), 'main_tab' => [ProfileTab](/API_docs/types/ProfileTab.html), 'guard_bot_id' => [long](/API_docs/types/long.html), \];<a name="channelFull"></a>  
 
 ***
 <br><br>[$channelLocation](/API_docs/constructors/channelLocation.html) = \['geo_point' => [GeoPoint](/API_docs/types/GeoPoint.html), 'address' => [string](/API_docs/types/string.html), \];<a name="channelLocation"></a>  
@@ -803,7 +812,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$config](/API_docs/constructors/config.html) = \['default_p2p_contacts' => [Bool](/API_docs/types/Bool.html), 'preload_featured_stickers' => [Bool](/API_docs/types/Bool.html), 'revoke_pm_inbox' => [Bool](/API_docs/types/Bool.html), 'blocked_mode' => [Bool](/API_docs/types/Bool.html), 'force_try_ipv6' => [Bool](/API_docs/types/Bool.html), 'date' => [int](/API_docs/types/int.html), 'expires' => [int](/API_docs/types/int.html), 'test_mode' => [Bool](/API_docs/types/Bool.html), 'this_dc' => [int](/API_docs/types/int.html), 'dc_options' => \[[DcOption](/API_docs/types/DcOption.html)\], 'dc_txt_domain_name' => [string](/API_docs/types/string.html), 'chat_size_max' => [int](/API_docs/types/int.html), 'megagroup_size_max' => [int](/API_docs/types/int.html), 'forwarded_count_max' => [int](/API_docs/types/int.html), 'online_update_period_ms' => [int](/API_docs/types/int.html), 'offline_blur_timeout_ms' => [int](/API_docs/types/int.html), 'offline_idle_timeout_ms' => [int](/API_docs/types/int.html), 'online_cloud_timeout_ms' => [int](/API_docs/types/int.html), 'notify_cloud_delay_ms' => [int](/API_docs/types/int.html), 'notify_default_delay_ms' => [int](/API_docs/types/int.html), 'push_chat_period_ms' => [int](/API_docs/types/int.html), 'push_chat_limit' => [int](/API_docs/types/int.html), 'edit_time_limit' => [int](/API_docs/types/int.html), 'revoke_time_limit' => [int](/API_docs/types/int.html), 'revoke_pm_time_limit' => [int](/API_docs/types/int.html), 'rating_e_decay' => [int](/API_docs/types/int.html), 'stickers_recent_limit' => [int](/API_docs/types/int.html), 'channels_read_media_period' => [int](/API_docs/types/int.html), 'tmp_sessions' => [int](/API_docs/types/int.html), 'call_receive_timeout_ms' => [int](/API_docs/types/int.html), 'call_ring_timeout_ms' => [int](/API_docs/types/int.html), 'call_connect_timeout_ms' => [int](/API_docs/types/int.html), 'call_packet_timeout_ms' => [int](/API_docs/types/int.html), 'me_url_prefix' => [string](/API_docs/types/string.html), 'autoupdate_url_prefix' => [string](/API_docs/types/string.html), 'gif_search_username' => [string](/API_docs/types/string.html), 'venue_search_username' => [string](/API_docs/types/string.html), 'img_search_username' => [string](/API_docs/types/string.html), 'static_maps_provider' => [string](/API_docs/types/string.html), 'caption_length_max' => [int](/API_docs/types/int.html), 'message_length_max' => [int](/API_docs/types/int.html), 'webfile_dc_id' => [int](/API_docs/types/int.html), 'suggested_lang_code' => [string](/API_docs/types/string.html), 'lang_pack_version' => [int](/API_docs/types/int.html), 'base_lang_pack_version' => [int](/API_docs/types/int.html), 'reactions_default' => [Reaction](/API_docs/types/Reaction.html), 'autologin_token' => [string](/API_docs/types/string.html), \];<a name="config"></a>  
 
 ***
-<br><br>[$connectedBot](/API_docs/constructors/connectedBot.html) = \['bot_id' => [long](/API_docs/types/long.html), 'recipients' => [BusinessBotRecipients](/API_docs/types/BusinessBotRecipients.html), 'rights' => [BusinessBotRights](/API_docs/types/BusinessBotRights.html), \];<a name="connectedBot"></a>  
+<br><br>[$connectedBot](/API_docs/constructors/connectedBot.html) = \['bot_id' => [long](/API_docs/types/long.html), 'recipients' => [BusinessBotRecipients](/API_docs/types/BusinessBotRecipients.html), 'rights' => [BusinessBotRights](/API_docs/types/BusinessBotRights.html), 'device' => [string](/API_docs/types/string.html), 'date' => [int](/API_docs/types/int.html), 'location' => [string](/API_docs/types/string.html), \];<a name="connectedBot"></a>  
 
 ***
 <br><br>[$connectedBotStarRef](/API_docs/constructors/connectedBotStarRef.html) = \['revoked' => [Bool](/API_docs/types/Bool.html), 'url' => [string](/API_docs/types/string.html), 'date' => [int](/API_docs/types/int.html), 'bot_id' => [long](/API_docs/types/long.html), 'commission_permille' => [int](/API_docs/types/int.html), 'duration_months' => [int](/API_docs/types/int.html), 'participants' => [long](/API_docs/types/long.html), 'revenue' => [long](/API_docs/types/long.html), \];<a name="connectedBotStarRef"></a>  
@@ -1001,7 +1010,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$documentEmpty](/API_docs/constructors/documentEmpty.html) = \['id' => [long](/API_docs/types/long.html), \];<a name="documentEmpty"></a>  
 
 ***
-<br><br>[$draftMessage](/API_docs/constructors/draftMessage.html) = \['no_webpage' => [Bool](/API_docs/types/Bool.html), 'invert_media' => [Bool](/API_docs/types/Bool.html), 'reply_to' => [InputReplyTo](/API_docs/types/InputReplyTo.html), 'message' => [string](/API_docs/types/string.html), 'entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], 'media' => [InputMedia](/API_docs/types/InputMedia.html), 'date' => [int](/API_docs/types/int.html), 'effect' => [long](/API_docs/types/long.html), 'suggested_post' => [SuggestedPost](/API_docs/types/SuggestedPost.html), \];<a name="draftMessage"></a>  
+<br><br>[$draftMessage](/API_docs/constructors/draftMessage.html) = \['no_webpage' => [Bool](/API_docs/types/Bool.html), 'invert_media' => [Bool](/API_docs/types/Bool.html), 'reply_to' => [InputReplyTo](/API_docs/types/InputReplyTo.html), 'message' => [string](/API_docs/types/string.html), 'entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], 'media' => [InputMedia](/API_docs/types/InputMedia.html), 'date' => [int](/API_docs/types/int.html), 'effect' => [long](/API_docs/types/long.html), 'suggested_post' => [SuggestedPost](/API_docs/types/SuggestedPost.html), 'rich_message' => [RichMessage](/API_docs/types/RichMessage.html), \];<a name="draftMessage"></a>  
 
 ***
 <br><br>[$draftMessageEmpty](/API_docs/constructors/draftMessageEmpty.html) = \['date' => [int](/API_docs/types/int.html), \];<a name="draftMessageEmpty"></a>  
@@ -1341,6 +1350,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$inputBotInlineMessageMediaWebPage](/API_docs/constructors/inputBotInlineMessageMediaWebPage.html) = \['invert_media' => [Bool](/API_docs/types/Bool.html), 'force_large_media' => [Bool](/API_docs/types/Bool.html), 'force_small_media' => [Bool](/API_docs/types/Bool.html), 'optional' => [Bool](/API_docs/types/Bool.html), 'message' => [string](/API_docs/types/string.html), 'entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], 'url' => [string](/API_docs/types/string.html), 'reply_markup' => [ReplyMarkup](/API_docs/types/ReplyMarkup.html), \];<a name="inputBotInlineMessageMediaWebPage"></a>  
+
+***
+<br><br>[$inputBotInlineMessageRichMessage](/API_docs/constructors/inputBotInlineMessageRichMessage.html) = \['reply_markup' => [ReplyMarkup](/API_docs/types/ReplyMarkup.html), 'rich_message' => [InputRichMessage](/API_docs/types/InputRichMessage.html), \];<a name="inputBotInlineMessageRichMessage"></a>  
 
 ***
 <br><br>[$inputBotInlineMessageText](/API_docs/constructors/inputBotInlineMessageText.html) = \['no_webpage' => [Bool](/API_docs/types/Bool.html), 'invert_media' => [Bool](/API_docs/types/Bool.html), 'message' => [string](/API_docs/types/string.html), 'entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], 'reply_markup' => [ReplyMarkup](/API_docs/types/ReplyMarkup.html), \];<a name="inputBotInlineMessageText"></a>  
@@ -1703,6 +1715,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputNotifyUsers](/API_docs/constructors/inputNotifyUsers.html) = \[\];<a name="inputNotifyUsers"></a>  
 
 ***
+<br><br>[$inputPageBlockMap](/API_docs/constructors/inputPageBlockMap.html) = \['geo' => [InputGeoPoint](/API_docs/types/InputGeoPoint.html), 'zoom' => [int](/API_docs/types/int.html), 'w' => [int](/API_docs/types/int.html), 'h' => [int](/API_docs/types/int.html), 'caption' => [PageCaption](/API_docs/types/PageCaption.html), \];<a name="inputPageBlockMap"></a>  
+
+***
 <br><br>[$inputPasskeyCredentialFirebasePNV](/API_docs/constructors/inputPasskeyCredentialFirebasePNV.html) = \['pnv_token' => [string](/API_docs/types/string.html), \];<a name="inputPasskeyCredentialFirebasePNV"></a>  
 
 ***
@@ -1901,6 +1916,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputReportReasonViolence](/API_docs/constructors/inputReportReasonViolence.html) = \[\];<a name="inputReportReasonViolence"></a>  
 
 ***
+<br><br>[$inputRichFileDocument](/API_docs/constructors/inputRichFileDocument.html) = \['id' => [string](/API_docs/types/string.html), 'document' => [InputDocument](/API_docs/types/InputDocument.html), \];<a name="inputRichFileDocument"></a>  
+
+***
+<br><br>[$inputRichFilePhoto](/API_docs/constructors/inputRichFilePhoto.html) = \['id' => [string](/API_docs/types/string.html), 'photo' => [InputPhoto](/API_docs/types/InputPhoto.html), \];<a name="inputRichFilePhoto"></a>  
+
+***
+<br><br>[$inputRichMessage](/API_docs/constructors/inputRichMessage.html) = \['rtl' => [Bool](/API_docs/types/Bool.html), 'noautolink' => [Bool](/API_docs/types/Bool.html), 'blocks' => \[[PageBlock](/API_docs/types/PageBlock.html)\], 'photos' => \[[InputPhoto](/API_docs/types/InputPhoto.html)\], 'documents' => \[[InputDocument](/API_docs/types/InputDocument.html)\], 'users' => \[[InputUser](/API_docs/types/InputUser.html)\], \];<a name="inputRichMessage"></a>  
+
+***
+<br><br>[$inputRichMessageHTML](/API_docs/constructors/inputRichMessageHTML.html) = \['rtl' => [Bool](/API_docs/types/Bool.html), 'noautolink' => [Bool](/API_docs/types/Bool.html), 'html' => [string](/API_docs/types/string.html), 'files' => \[[InputRichFile](/API_docs/types/InputRichFile.html)\], \];<a name="inputRichMessageHTML"></a>  
+
+***
+<br><br>[$inputRichMessageMarkdown](/API_docs/constructors/inputRichMessageMarkdown.html) = \['rtl' => [Bool](/API_docs/types/Bool.html), 'noautolink' => [Bool](/API_docs/types/Bool.html), 'markdown' => [string](/API_docs/types/string.html), 'files' => \[[InputRichFile](/API_docs/types/InputRichFile.html)\], \];<a name="inputRichMessageMarkdown"></a>  
+
+***
 <br><br>[$inputSavedStarGiftChat](/API_docs/constructors/inputSavedStarGiftChat.html) = \['peer' => [InputPeer](/API_docs/types/InputPeer.html), 'saved_id' => [long](/API_docs/types/long.html), \];<a name="inputSavedStarGiftChat"></a>  
 
 ***
@@ -1920,6 +1950,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$inputSecureValue](/API_docs/constructors/inputSecureValue.html) = \['type' => [SecureValueType](/API_docs/types/SecureValueType.html), 'data' => [SecureData](/API_docs/types/SecureData.html), 'front_side' => [InputSecureFile](/API_docs/types/InputSecureFile.html), 'reverse_side' => [InputSecureFile](/API_docs/types/InputSecureFile.html), 'selfie' => [InputSecureFile](/API_docs/types/InputSecureFile.html), 'translation' => \[[InputSecureFile](/API_docs/types/InputSecureFile.html)\], 'files' => \[[InputSecureFile](/API_docs/types/InputSecureFile.html)\], 'plain_data' => [SecurePlainData](/API_docs/types/SecurePlainData.html), \];<a name="inputSecureValue"></a>  
+
+***
+<br><br>[$inputSendMessageRichMessageDraftAction](/API_docs/constructors/inputSendMessageRichMessageDraftAction.html) = \['rich_message' => [InputRichMessage](/API_docs/types/InputRichMessage.html), \];<a name="inputSendMessageRichMessageDraftAction"></a>  
 
 ***
 <br><br>[$inputSingleMedia](/API_docs/constructors/inputSingleMedia.html) = \['media' => [InputMedia](/API_docs/types/InputMedia.html), 'message' => [string](/API_docs/types/string.html), 'entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], \];<a name="inputSingleMedia"></a>  
@@ -2054,6 +2087,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$invoice](/API_docs/constructors/invoice.html) = \['test' => [Bool](/API_docs/types/Bool.html), 'name_requested' => [Bool](/API_docs/types/Bool.html), 'phone_requested' => [Bool](/API_docs/types/Bool.html), 'email_requested' => [Bool](/API_docs/types/Bool.html), 'shipping_address_requested' => [Bool](/API_docs/types/Bool.html), 'flexible' => [Bool](/API_docs/types/Bool.html), 'phone_to_provider' => [Bool](/API_docs/types/Bool.html), 'email_to_provider' => [Bool](/API_docs/types/Bool.html), 'recurring' => [Bool](/API_docs/types/Bool.html), 'currency' => [string](/API_docs/types/string.html), 'prices' => \[[LabeledPrice](/API_docs/types/LabeledPrice.html)\], 'max_tip_amount' => [long](/API_docs/types/long.html), 'suggested_tip_amounts' => \[[long](/API_docs/types/long.html)\], 'terms_url' => [string](/API_docs/types/string.html), 'subscription_period' => [int](/API_docs/types/int.html), \];<a name="invoice"></a>  
 
 ***
+<br><br>[$joinChatBotResultApproved](/API_docs/constructors/joinChatBotResultApproved.html) = \[\];<a name="joinChatBotResultApproved"></a>  
+
+***
+<br><br>[$joinChatBotResultDeclined](/API_docs/constructors/joinChatBotResultDeclined.html) = \[\];<a name="joinChatBotResultDeclined"></a>  
+
+***
+<br><br>[$joinChatBotResultQueued](/API_docs/constructors/joinChatBotResultQueued.html) = \[\];<a name="joinChatBotResultQueued"></a>  
+
+***
+<br><br>[$joinChatBotResultWebView](/API_docs/constructors/joinChatBotResultWebView.html) = \['url' => [string](/API_docs/types/string.html), \];<a name="joinChatBotResultWebView"></a>  
+
+***
 <br><br>[$jsonArray](/API_docs/constructors/jsonArray.html) = \['value' => \[[JSONValue](/API_docs/types/JSONValue.html)\], \];<a name="jsonArray"></a>  
 
 ***
@@ -2171,7 +2216,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$mediaAreaWeather](/API_docs/constructors/mediaAreaWeather.html) = \['coordinates' => [MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html), 'emoji' => [string](/API_docs/types/string.html), 'temperature_c' => [double](/API_docs/types/double.html), 'color' => [int](/API_docs/types/int.html), \];<a name="mediaAreaWeather"></a>  
 
 ***
-<br><br>[$message](/API_docs/constructors/message.html) = \['out' => [Bool](/API_docs/types/Bool.html), 'mentioned' => [Bool](/API_docs/types/Bool.html), 'media_unread' => [Bool](/API_docs/types/Bool.html), 'silent' => [Bool](/API_docs/types/Bool.html), 'post' => [Bool](/API_docs/types/Bool.html), 'from_scheduled' => [Bool](/API_docs/types/Bool.html), 'legacy' => [Bool](/API_docs/types/Bool.html), 'edit_hide' => [Bool](/API_docs/types/Bool.html), 'pinned' => [Bool](/API_docs/types/Bool.html), 'noforwards' => [Bool](/API_docs/types/Bool.html), 'invert_media' => [Bool](/API_docs/types/Bool.html), 'offline' => [Bool](/API_docs/types/Bool.html), 'video_processing_pending' => [Bool](/API_docs/types/Bool.html), 'paid_suggested_post_stars' => [Bool](/API_docs/types/Bool.html), 'paid_suggested_post_ton' => [Bool](/API_docs/types/Bool.html), 'id' => [int](/API_docs/types/int.html), 'from_id' => [Peer](/API_docs/types/Peer.html), 'from_boosts_applied' => [int](/API_docs/types/int.html), 'from_rank' => [string](/API_docs/types/string.html), 'peer_id' => [Peer](/API_docs/types/Peer.html), 'saved_peer_id' => [Peer](/API_docs/types/Peer.html), 'fwd_from' => [MessageFwdHeader](/API_docs/types/MessageFwdHeader.html), 'via_bot_id' => [long](/API_docs/types/long.html), 'via_business_bot_id' => [long](/API_docs/types/long.html), 'guestchat_via_from' => [Peer](/API_docs/types/Peer.html), 'reply_to' => [MessageReplyHeader](/API_docs/types/MessageReplyHeader.html), 'date' => [int](/API_docs/types/int.html), 'message' => [string](/API_docs/types/string.html), 'media' => [MessageMedia](/API_docs/types/MessageMedia.html), 'reply_markup' => [ReplyMarkup](/API_docs/types/ReplyMarkup.html), 'entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], 'views' => [int](/API_docs/types/int.html), 'forwards' => [int](/API_docs/types/int.html), 'replies' => [MessageReplies](/API_docs/types/MessageReplies.html), 'edit_date' => [int](/API_docs/types/int.html), 'post_author' => [string](/API_docs/types/string.html), 'grouped_id' => [long](/API_docs/types/long.html), 'reactions' => [MessageReactions](/API_docs/types/MessageReactions.html), 'restriction_reason' => \[[RestrictionReason](/API_docs/types/RestrictionReason.html)\], 'ttl_period' => [int](/API_docs/types/int.html), 'quick_reply_shortcut_id' => [int](/API_docs/types/int.html), 'effect' => [long](/API_docs/types/long.html), 'factcheck' => [FactCheck](/API_docs/types/FactCheck.html), 'report_delivery_until_date' => [int](/API_docs/types/int.html), 'paid_message_stars' => [long](/API_docs/types/long.html), 'suggested_post' => [SuggestedPost](/API_docs/types/SuggestedPost.html), 'schedule_repeat_period' => [int](/API_docs/types/int.html), 'summary_from_language' => [string](/API_docs/types/string.html), \];<a name="message"></a>  
+<br><br>[$message](/API_docs/constructors/message.html) = \['out' => [Bool](/API_docs/types/Bool.html), 'mentioned' => [Bool](/API_docs/types/Bool.html), 'media_unread' => [Bool](/API_docs/types/Bool.html), 'silent' => [Bool](/API_docs/types/Bool.html), 'post' => [Bool](/API_docs/types/Bool.html), 'from_scheduled' => [Bool](/API_docs/types/Bool.html), 'legacy' => [Bool](/API_docs/types/Bool.html), 'edit_hide' => [Bool](/API_docs/types/Bool.html), 'pinned' => [Bool](/API_docs/types/Bool.html), 'noforwards' => [Bool](/API_docs/types/Bool.html), 'invert_media' => [Bool](/API_docs/types/Bool.html), 'offline' => [Bool](/API_docs/types/Bool.html), 'video_processing_pending' => [Bool](/API_docs/types/Bool.html), 'paid_suggested_post_stars' => [Bool](/API_docs/types/Bool.html), 'paid_suggested_post_ton' => [Bool](/API_docs/types/Bool.html), 'id' => [int](/API_docs/types/int.html), 'from_id' => [Peer](/API_docs/types/Peer.html), 'from_boosts_applied' => [int](/API_docs/types/int.html), 'from_rank' => [string](/API_docs/types/string.html), 'peer_id' => [Peer](/API_docs/types/Peer.html), 'saved_peer_id' => [Peer](/API_docs/types/Peer.html), 'fwd_from' => [MessageFwdHeader](/API_docs/types/MessageFwdHeader.html), 'via_bot_id' => [long](/API_docs/types/long.html), 'via_business_bot_id' => [long](/API_docs/types/long.html), 'guestchat_via_from' => [Peer](/API_docs/types/Peer.html), 'reply_to' => [MessageReplyHeader](/API_docs/types/MessageReplyHeader.html), 'date' => [int](/API_docs/types/int.html), 'message' => [string](/API_docs/types/string.html), 'media' => [MessageMedia](/API_docs/types/MessageMedia.html), 'reply_markup' => [ReplyMarkup](/API_docs/types/ReplyMarkup.html), 'entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], 'views' => [int](/API_docs/types/int.html), 'forwards' => [int](/API_docs/types/int.html), 'replies' => [MessageReplies](/API_docs/types/MessageReplies.html), 'edit_date' => [int](/API_docs/types/int.html), 'post_author' => [string](/API_docs/types/string.html), 'grouped_id' => [long](/API_docs/types/long.html), 'reactions' => [MessageReactions](/API_docs/types/MessageReactions.html), 'restriction_reason' => \[[RestrictionReason](/API_docs/types/RestrictionReason.html)\], 'ttl_period' => [int](/API_docs/types/int.html), 'quick_reply_shortcut_id' => [int](/API_docs/types/int.html), 'effect' => [long](/API_docs/types/long.html), 'factcheck' => [FactCheck](/API_docs/types/FactCheck.html), 'report_delivery_until_date' => [int](/API_docs/types/int.html), 'paid_message_stars' => [long](/API_docs/types/long.html), 'suggested_post' => [SuggestedPost](/API_docs/types/SuggestedPost.html), 'schedule_repeat_period' => [int](/API_docs/types/int.html), 'summary_from_language' => [string](/API_docs/types/string.html), 'rich_message' => [RichMessage](/API_docs/types/RichMessage.html), \];<a name="message"></a>  
 
 ***
 <br><br>[$messageActionBoostApply](/API_docs/constructors/messageActionBoostApply.html) = \['boosts' => [int](/API_docs/types/int.html), \];<a name="messageActionBoostApply"></a>  
@@ -2540,7 +2585,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageReplies](/API_docs/constructors/messageReplies.html) = \['comments' => [Bool](/API_docs/types/Bool.html), 'replies' => [int](/API_docs/types/int.html), 'replies_pts' => [int](/API_docs/types/int.html), 'recent_repliers' => \[[Peer](/API_docs/types/Peer.html)\], 'channel_id' => [long](/API_docs/types/long.html), 'max_id' => [int](/API_docs/types/int.html), 'read_max_id' => [int](/API_docs/types/int.html), \];<a name="messageReplies"></a>  
 
 ***
-<br><br>[$messageReplyHeader](/API_docs/constructors/messageReplyHeader.html) = \['reply_to_scheduled' => [Bool](/API_docs/types/Bool.html), 'forum_topic' => [Bool](/API_docs/types/Bool.html), 'quote' => [Bool](/API_docs/types/Bool.html), 'reply_to_msg_id' => [int](/API_docs/types/int.html), 'reply_to_peer_id' => [Peer](/API_docs/types/Peer.html), 'reply_from' => [MessageFwdHeader](/API_docs/types/MessageFwdHeader.html), 'reply_media' => [MessageMedia](/API_docs/types/MessageMedia.html), 'reply_to_top_id' => [int](/API_docs/types/int.html), 'quote_text' => [string](/API_docs/types/string.html), 'quote_entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], 'quote_offset' => [int](/API_docs/types/int.html), 'todo_item_id' => [int](/API_docs/types/int.html), 'poll_option' => [bytes](/API_docs/types/bytes.html), \];<a name="messageReplyHeader"></a>  
+<br><br>[$messageReplyHeader](/API_docs/constructors/messageReplyHeader.html) = \['reply_to_scheduled' => [Bool](/API_docs/types/Bool.html), 'forum_topic' => [Bool](/API_docs/types/Bool.html), 'quote' => [Bool](/API_docs/types/Bool.html), 'reply_to_ephemeral' => [Bool](/API_docs/types/Bool.html), 'reply_to_msg_id' => [int](/API_docs/types/int.html), 'reply_to_peer_id' => [Peer](/API_docs/types/Peer.html), 'reply_from' => [MessageFwdHeader](/API_docs/types/MessageFwdHeader.html), 'reply_media' => [MessageMedia](/API_docs/types/MessageMedia.html), 'reply_to_top_id' => [int](/API_docs/types/int.html), 'quote_text' => [string](/API_docs/types/string.html), 'quote_entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], 'quote_offset' => [int](/API_docs/types/int.html), 'todo_item_id' => [int](/API_docs/types/int.html), 'poll_option' => [bytes](/API_docs/types/bytes.html), \];<a name="messageReplyHeader"></a>  
 
 ***
 <br><br>[$messageReplyStoryHeader](/API_docs/constructors/messageReplyStoryHeader.html) = \['peer' => [long](/API_docs/types/long.html), 'story_id' => [int](/API_docs/types/int.html), \];<a name="messageReplyStoryHeader"></a>  
@@ -2607,6 +2652,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$messages.chatInviteImporters](/API_docs/constructors/messages.chatInviteImporters.html) = \['count' => [int](/API_docs/types/int.html), 'importers' => \[[ChatInviteImporter](/API_docs/types/ChatInviteImporter.html)\], 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="messages.chatInviteImporters"></a>  
+
+***
+<br><br>[$messages.chatInviteJoinResultOk](/API_docs/constructors/messages.chatInviteJoinResultOk.html) = \['updates' => [Updates](/API_docs/types/Updates.html), \];<a name="messages.chatInviteJoinResultOk"></a>  
+
+***
+<br><br>[$messages.chatInviteJoinResultWebView](/API_docs/constructors/messages.chatInviteJoinResultWebView.html) = \['bot_id' => [long](/API_docs/types/long.html), 'webview' => [WebViewResult](/API_docs/types/WebViewResult.html), 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="messages.chatInviteJoinResultWebView"></a>  
 
 ***
 <br><br>[$messages.chats](/API_docs/constructors/messages.chats.html) = \['chats' => \[[Chat](/API_docs/types/Chat.html)\], \];<a name="messages.chats"></a>  
@@ -2891,6 +2942,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$pageBlockBlockquote](/API_docs/constructors/pageBlockBlockquote.html) = \['text' => [RichText](/API_docs/types/RichText.html), 'caption' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockBlockquote"></a>  
 
 ***
+<br><br>[$pageBlockBlockquoteBlocks](/API_docs/constructors/pageBlockBlockquoteBlocks.html) = \['blocks' => \[[PageBlock](/API_docs/types/PageBlock.html)\], 'caption' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockBlockquoteBlocks"></a>  
+
+***
 <br><br>[$pageBlockChannel](/API_docs/constructors/pageBlockChannel.html) = \['channel' => [Chat](/API_docs/types/Chat.html), \];<a name="pageBlockChannel"></a>  
 
 ***
@@ -2918,6 +2972,24 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$pageBlockHeader](/API_docs/constructors/pageBlockHeader.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockHeader"></a>  
 
 ***
+<br><br>[$pageBlockHeading1](/API_docs/constructors/pageBlockHeading1.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockHeading1"></a>  
+
+***
+<br><br>[$pageBlockHeading2](/API_docs/constructors/pageBlockHeading2.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockHeading2"></a>  
+
+***
+<br><br>[$pageBlockHeading3](/API_docs/constructors/pageBlockHeading3.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockHeading3"></a>  
+
+***
+<br><br>[$pageBlockHeading4](/API_docs/constructors/pageBlockHeading4.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockHeading4"></a>  
+
+***
+<br><br>[$pageBlockHeading5](/API_docs/constructors/pageBlockHeading5.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockHeading5"></a>  
+
+***
+<br><br>[$pageBlockHeading6](/API_docs/constructors/pageBlockHeading6.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockHeading6"></a>  
+
+***
 <br><br>[$pageBlockKicker](/API_docs/constructors/pageBlockKicker.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockKicker"></a>  
 
 ***
@@ -2927,13 +2999,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$pageBlockMap](/API_docs/constructors/pageBlockMap.html) = \['geo' => [GeoPoint](/API_docs/types/GeoPoint.html), 'zoom' => [int](/API_docs/types/int.html), 'w' => [int](/API_docs/types/int.html), 'h' => [int](/API_docs/types/int.html), 'caption' => [PageCaption](/API_docs/types/PageCaption.html), \];<a name="pageBlockMap"></a>  
 
 ***
-<br><br>[$pageBlockOrderedList](/API_docs/constructors/pageBlockOrderedList.html) = \['items' => \[[PageListOrderedItem](/API_docs/types/PageListOrderedItem.html)\], \];<a name="pageBlockOrderedList"></a>  
+<br><br>[$pageBlockMath](/API_docs/constructors/pageBlockMath.html) = \['source' => [string](/API_docs/types/string.html), \];<a name="pageBlockMath"></a>  
+
+***
+<br><br>[$pageBlockOrderedList](/API_docs/constructors/pageBlockOrderedList.html) = \['reversed' => [Bool](/API_docs/types/Bool.html), 'items' => \[[PageListOrderedItem](/API_docs/types/PageListOrderedItem.html)\], 'start' => [int](/API_docs/types/int.html), 'type' => [string](/API_docs/types/string.html), \];<a name="pageBlockOrderedList"></a>  
 
 ***
 <br><br>[$pageBlockParagraph](/API_docs/constructors/pageBlockParagraph.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockParagraph"></a>  
 
 ***
-<br><br>[$pageBlockPhoto](/API_docs/constructors/pageBlockPhoto.html) = \['photo_id' => [long](/API_docs/types/long.html), 'caption' => [PageCaption](/API_docs/types/PageCaption.html), 'url' => [string](/API_docs/types/string.html), 'webpage_id' => [long](/API_docs/types/long.html), \];<a name="pageBlockPhoto"></a>  
+<br><br>[$pageBlockPhoto](/API_docs/constructors/pageBlockPhoto.html) = \['spoiler' => [Bool](/API_docs/types/Bool.html), 'photo_id' => [long](/API_docs/types/long.html), 'caption' => [PageCaption](/API_docs/types/PageCaption.html), 'url' => [string](/API_docs/types/string.html), 'webpage_id' => [long](/API_docs/types/long.html), \];<a name="pageBlockPhoto"></a>  
 
 ***
 <br><br>[$pageBlockPreformatted](/API_docs/constructors/pageBlockPreformatted.html) = \['text' => [RichText](/API_docs/types/RichText.html), 'language' => [string](/API_docs/types/string.html), \];<a name="pageBlockPreformatted"></a>  
@@ -2957,28 +3032,31 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$pageBlockTable](/API_docs/constructors/pageBlockTable.html) = \['bordered' => [Bool](/API_docs/types/Bool.html), 'striped' => [Bool](/API_docs/types/Bool.html), 'title' => [RichText](/API_docs/types/RichText.html), 'rows' => \[[PageTableRow](/API_docs/types/PageTableRow.html)\], \];<a name="pageBlockTable"></a>  
 
 ***
+<br><br>[$pageBlockThinking](/API_docs/constructors/pageBlockThinking.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockThinking"></a>  
+
+***
 <br><br>[$pageBlockTitle](/API_docs/constructors/pageBlockTitle.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageBlockTitle"></a>  
 
 ***
 <br><br>[$pageBlockUnsupported](/API_docs/constructors/pageBlockUnsupported.html) = \[\];<a name="pageBlockUnsupported"></a>  
 
 ***
-<br><br>[$pageBlockVideo](/API_docs/constructors/pageBlockVideo.html) = \['autoplay' => [Bool](/API_docs/types/Bool.html), 'loop' => [Bool](/API_docs/types/Bool.html), 'video_id' => [long](/API_docs/types/long.html), 'caption' => [PageCaption](/API_docs/types/PageCaption.html), \];<a name="pageBlockVideo"></a>  
+<br><br>[$pageBlockVideo](/API_docs/constructors/pageBlockVideo.html) = \['autoplay' => [Bool](/API_docs/types/Bool.html), 'loop' => [Bool](/API_docs/types/Bool.html), 'spoiler' => [Bool](/API_docs/types/Bool.html), 'video_id' => [long](/API_docs/types/long.html), 'caption' => [PageCaption](/API_docs/types/PageCaption.html), \];<a name="pageBlockVideo"></a>  
 
 ***
 <br><br>[$pageCaption](/API_docs/constructors/pageCaption.html) = \['text' => [RichText](/API_docs/types/RichText.html), 'credit' => [RichText](/API_docs/types/RichText.html), \];<a name="pageCaption"></a>  
 
 ***
-<br><br>[$pageListItemBlocks](/API_docs/constructors/pageListItemBlocks.html) = \['blocks' => \[[PageBlock](/API_docs/types/PageBlock.html)\], \];<a name="pageListItemBlocks"></a>  
+<br><br>[$pageListItemBlocks](/API_docs/constructors/pageListItemBlocks.html) = \['checkbox' => [Bool](/API_docs/types/Bool.html), 'checked' => [Bool](/API_docs/types/Bool.html), 'blocks' => \[[PageBlock](/API_docs/types/PageBlock.html)\], \];<a name="pageListItemBlocks"></a>  
 
 ***
-<br><br>[$pageListItemText](/API_docs/constructors/pageListItemText.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageListItemText"></a>  
+<br><br>[$pageListItemText](/API_docs/constructors/pageListItemText.html) = \['checkbox' => [Bool](/API_docs/types/Bool.html), 'checked' => [Bool](/API_docs/types/Bool.html), 'text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageListItemText"></a>  
 
 ***
-<br><br>[$pageListOrderedItemBlocks](/API_docs/constructors/pageListOrderedItemBlocks.html) = \['num' => [string](/API_docs/types/string.html), 'blocks' => \[[PageBlock](/API_docs/types/PageBlock.html)\], \];<a name="pageListOrderedItemBlocks"></a>  
+<br><br>[$pageListOrderedItemBlocks](/API_docs/constructors/pageListOrderedItemBlocks.html) = \['checkbox' => [Bool](/API_docs/types/Bool.html), 'checked' => [Bool](/API_docs/types/Bool.html), 'num' => [string](/API_docs/types/string.html), 'blocks' => \[[PageBlock](/API_docs/types/PageBlock.html)\], 'value' => [int](/API_docs/types/int.html), 'type' => [string](/API_docs/types/string.html), \];<a name="pageListOrderedItemBlocks"></a>  
 
 ***
-<br><br>[$pageListOrderedItemText](/API_docs/constructors/pageListOrderedItemText.html) = \['num' => [string](/API_docs/types/string.html), 'text' => [RichText](/API_docs/types/RichText.html), \];<a name="pageListOrderedItemText"></a>  
+<br><br>[$pageListOrderedItemText](/API_docs/constructors/pageListOrderedItemText.html) = \['checkbox' => [Bool](/API_docs/types/Bool.html), 'checked' => [Bool](/API_docs/types/Bool.html), 'num' => [string](/API_docs/types/string.html), 'text' => [RichText](/API_docs/types/RichText.html), 'value' => [int](/API_docs/types/int.html), 'type' => [string](/API_docs/types/string.html), \];<a name="pageListOrderedItemText"></a>  
 
 ***
 <br><br>[$pageRelatedArticle](/API_docs/constructors/pageRelatedArticle.html) = \['url' => [string](/API_docs/types/string.html), 'webpage_id' => [long](/API_docs/types/long.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo_id' => [long](/API_docs/types/long.html), 'author' => [string](/API_docs/types/string.html), 'published_date' => [int](/API_docs/types/int.html), \];<a name="pageRelatedArticle"></a>  
@@ -3524,6 +3602,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$restrictionReason](/API_docs/constructors/restrictionReason.html) = \['platform' => [string](/API_docs/types/string.html), 'reason' => [string](/API_docs/types/string.html), 'text' => [string](/API_docs/types/string.html), \];<a name="restrictionReason"></a>  
 
 ***
+<br><br>[$richMessage](/API_docs/constructors/richMessage.html) = \['rtl' => [Bool](/API_docs/types/Bool.html), 'part' => [Bool](/API_docs/types/Bool.html), 'blocks' => \[[PageBlock](/API_docs/types/PageBlock.html)\], 'photos' => \[[Photo](/API_docs/types/Photo.html)\], 'documents' => \[[Document](/API_docs/types/Document.html)\], \];<a name="richMessage"></a>  
+
+***
 <br><br>[$savedDialog](/API_docs/constructors/savedDialog.html) = \['pinned' => [Bool](/API_docs/types/Bool.html), 'peer' => [long](/API_docs/types/long.html), 'top_message' => [int](/API_docs/types/int.html), \];<a name="savedDialog"></a>  
 
 ***
@@ -3687,6 +3768,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$sendMessageRecordVideoAction](/API_docs/constructors/sendMessageRecordVideoAction.html) = \[\];<a name="sendMessageRecordVideoAction"></a>  
+
+***
+<br><br>[$sendMessageRichMessageDraftAction](/API_docs/constructors/sendMessageRichMessageDraftAction.html) = \['rich_message' => [RichMessage](/API_docs/types/RichMessage.html), \];<a name="sendMessageRichMessageDraftAction"></a>  
 
 ***
 <br><br>[$sendMessageTextDraftAction](/API_docs/constructors/sendMessageTextDraftAction.html) = \['text' => [TextWithEntities](/API_docs/types/TextWithEntities.html), \];<a name="sendMessageTextDraftAction"></a>  
@@ -4052,10 +4136,34 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$textAnchor](/API_docs/constructors/textAnchor.html) = \['text' => [RichText](/API_docs/types/RichText.html), 'name' => [string](/API_docs/types/string.html), \];<a name="textAnchor"></a>  
 
 ***
+<br><br>[$textAutoEmail](/API_docs/constructors/textAutoEmail.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textAutoEmail"></a>  
+
+***
+<br><br>[$textAutoPhone](/API_docs/constructors/textAutoPhone.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textAutoPhone"></a>  
+
+***
+<br><br>[$textAutoUrl](/API_docs/constructors/textAutoUrl.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textAutoUrl"></a>  
+
+***
+<br><br>[$textBankCard](/API_docs/constructors/textBankCard.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textBankCard"></a>  
+
+***
 <br><br>[$textBold](/API_docs/constructors/textBold.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textBold"></a>  
 
 ***
+<br><br>[$textBotCommand](/API_docs/constructors/textBotCommand.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textBotCommand"></a>  
+
+***
+<br><br>[$textCashtag](/API_docs/constructors/textCashtag.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textCashtag"></a>  
+
+***
 <br><br>[$textConcat](/API_docs/constructors/textConcat.html) = \['texts' => \[[RichText](/API_docs/types/RichText.html)\], \];<a name="textConcat"></a>  
+
+***
+<br><br>[$textCustomEmoji](/API_docs/constructors/textCustomEmoji.html) = \['document_id' => [long](/API_docs/types/long.html), 'alt' => [string](/API_docs/types/string.html), \];<a name="textCustomEmoji"></a>  
+
+***
+<br><br>[$textDate](/API_docs/constructors/textDate.html) = \['relative' => [Bool](/API_docs/types/Bool.html), 'short_time' => [Bool](/API_docs/types/Bool.html), 'long_time' => [Bool](/API_docs/types/Bool.html), 'short_date' => [Bool](/API_docs/types/Bool.html), 'long_date' => [Bool](/API_docs/types/Bool.html), 'day_of_week' => [Bool](/API_docs/types/Bool.html), 'text' => [RichText](/API_docs/types/RichText.html), 'date' => [int](/API_docs/types/int.html), \];<a name="textDate"></a>  
 
 ***
 <br><br>[$textEmail](/API_docs/constructors/textEmail.html) = \['text' => [RichText](/API_docs/types/RichText.html), 'email' => [string](/API_docs/types/string.html), \];<a name="textEmail"></a>  
@@ -4067,6 +4175,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$textFixed](/API_docs/constructors/textFixed.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textFixed"></a>  
 
 ***
+<br><br>[$textHashtag](/API_docs/constructors/textHashtag.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textHashtag"></a>  
+
+***
 <br><br>[$textImage](/API_docs/constructors/textImage.html) = \['document_id' => [long](/API_docs/types/long.html), 'w' => [int](/API_docs/types/int.html), 'h' => [int](/API_docs/types/int.html), \];<a name="textImage"></a>  
 
 ***
@@ -4076,10 +4187,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$textMarked](/API_docs/constructors/textMarked.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textMarked"></a>  
 
 ***
+<br><br>[$textMath](/API_docs/constructors/textMath.html) = \['source' => [string](/API_docs/types/string.html), \];<a name="textMath"></a>  
+
+***
+<br><br>[$textMention](/API_docs/constructors/textMention.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textMention"></a>  
+
+***
+<br><br>[$textMentionName](/API_docs/constructors/textMentionName.html) = \['text' => [RichText](/API_docs/types/RichText.html), 'user_id' => [long](/API_docs/types/long.html), \];<a name="textMentionName"></a>  
+
+***
 <br><br>[$textPhone](/API_docs/constructors/textPhone.html) = \['text' => [RichText](/API_docs/types/RichText.html), 'phone' => [string](/API_docs/types/string.html), \];<a name="textPhone"></a>  
 
 ***
 <br><br>[$textPlain](/API_docs/constructors/textPlain.html) = \['text' => [string](/API_docs/types/string.html), \];<a name="textPlain"></a>  
+
+***
+<br><br>[$textSpoiler](/API_docs/constructors/textSpoiler.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textSpoiler"></a>  
 
 ***
 <br><br>[$textStrike](/API_docs/constructors/textStrike.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textStrike"></a>  
@@ -4175,7 +4298,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateBotChatBoost](/API_docs/constructors/updateBotChatBoost.html) = \['peer' => [long](/API_docs/types/long.html), 'boost' => [Boost](/API_docs/types/Boost.html), 'qts' => [int](/API_docs/types/int.html), \];<a name="updateBotChatBoost"></a>  
 
 ***
-<br><br>[$updateBotChatInviteRequester](/API_docs/constructors/updateBotChatInviteRequester.html) = \['peer' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'user_id' => [long](/API_docs/types/long.html), 'about' => [string](/API_docs/types/string.html), 'invite' => [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html), 'qts' => [int](/API_docs/types/int.html), \];<a name="updateBotChatInviteRequester"></a>  
+<br><br>[$updateBotChatInviteRequester](/API_docs/constructors/updateBotChatInviteRequester.html) = \['peer' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'user_id' => [long](/API_docs/types/long.html), 'about' => [string](/API_docs/types/string.html), 'invite' => [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html), 'qts' => [int](/API_docs/types/int.html), 'query_id' => [long](/API_docs/types/long.html), \];<a name="updateBotChatInviteRequester"></a>  
 
 ***
 <br><br>[$updateBotCommands](/API_docs/constructors/updateBotCommands.html) = \['peer' => [long](/API_docs/types/long.html), 'bot_id' => [long](/API_docs/types/long.html), 'commands' => \[[BotCommand](/API_docs/types/BotCommand.html)\], \];<a name="updateBotCommands"></a>  
@@ -4379,6 +4502,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateInlineBotCallbackQuery](/API_docs/constructors/updateInlineBotCallbackQuery.html) = \['query_id' => [long](/API_docs/types/long.html), 'user_id' => [long](/API_docs/types/long.html), 'msg_id' => [InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html), 'chat_instance' => [long](/API_docs/types/long.html), 'data' => [bytes](/API_docs/types/bytes.html), 'game_short_name' => [string](/API_docs/types/string.html), \];<a name="updateInlineBotCallbackQuery"></a>  
 
 ***
+<br><br>[$updateJoinChatWebViewDecision](/API_docs/constructors/updateJoinChatWebViewDecision.html) = \['peer' => [long](/API_docs/types/long.html), 'query_id' => [long](/API_docs/types/long.html), 'result' => [JoinChatBotResult](/API_docs/types/JoinChatBotResult.html), \];<a name="updateJoinChatWebViewDecision"></a>  
+
+***
 <br><br>[$updateLangPack](/API_docs/constructors/updateLangPack.html) = \['difference' => [LangPackDifference](/API_docs/types/LangPackDifference.html), \];<a name="updateLangPack"></a>  
 
 ***
@@ -4413,6 +4539,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$updateNewAuthorization](/API_docs/constructors/updateNewAuthorization.html) = \['unconfirmed' => [Bool](/API_docs/types/Bool.html), 'hash' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'device' => [string](/API_docs/types/string.html), 'location' => [string](/API_docs/types/string.html), \];<a name="updateNewAuthorization"></a>  
+
+***
+<br><br>[$updateNewBotConnection](/API_docs/constructors/updateNewBotConnection.html) = \['confirmed' => [Bool](/API_docs/types/Bool.html), 'bot_id' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'device' => [string](/API_docs/types/string.html), 'location' => [string](/API_docs/types/string.html), \];<a name="updateNewBotConnection"></a>  
 
 ***
 <br><br>[$updateNewChannelMessage](/API_docs/constructors/updateNewChannelMessage.html) = \['message' => [Message](/API_docs/types/Message.html), 'pts' => [int](/API_docs/types/int.html), 'pts_count' => [int](/API_docs/types/int.html), \];<a name="updateNewChannelMessage"></a>  
@@ -4631,6 +4760,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateUserTyping](/API_docs/constructors/updateUserTyping.html) = \['user_id' => [long](/API_docs/types/long.html), 'top_msg_id' => [int](/API_docs/types/int.html), 'action' => [SendMessageAction](/API_docs/types/SendMessageAction.html), \];<a name="updateUserTyping"></a>  
 
 ***
+<br><br>[$updateWebBrowserException](/API_docs/constructors/updateWebBrowserException.html) = \['delete' => [Bool](/API_docs/types/Bool.html), 'open_external_browser' => [Bool](/API_docs/types/Bool.html), 'exception' => [WebDomainException](/API_docs/types/WebDomainException.html), \];<a name="updateWebBrowserException"></a>  
+
+***
+<br><br>[$updateWebBrowserSettings](/API_docs/constructors/updateWebBrowserSettings.html) = \['open_external_browser' => [Bool](/API_docs/types/Bool.html), 'display_close_button' => [Bool](/API_docs/types/Bool.html), \];<a name="updateWebBrowserSettings"></a>  
+
+***
 <br><br>[$updateWebPage](/API_docs/constructors/updateWebPage.html) = \['webpage' => [WebPage](/API_docs/types/WebPage.html), 'pts' => [int](/API_docs/types/int.html), 'pts_count' => [int](/API_docs/types/int.html), \];<a name="updateWebPage"></a>  
 
 ***
@@ -4694,7 +4829,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$urlAuthResultRequest](/API_docs/constructors/urlAuthResultRequest.html) = \['request_write_access' => [Bool](/API_docs/types/Bool.html), 'request_phone_number' => [Bool](/API_docs/types/Bool.html), 'match_codes_first' => [Bool](/API_docs/types/Bool.html), 'is_app' => [Bool](/API_docs/types/Bool.html), 'bot' => [User](/API_docs/types/User.html), 'domain' => [string](/API_docs/types/string.html), 'browser' => [string](/API_docs/types/string.html), 'platform' => [string](/API_docs/types/string.html), 'ip' => [string](/API_docs/types/string.html), 'region' => [string](/API_docs/types/string.html), 'match_codes' => \[[string](/API_docs/types/string.html)\], 'user_id_hint' => [long](/API_docs/types/long.html), 'verified_app_name' => [string](/API_docs/types/string.html), \];<a name="urlAuthResultRequest"></a>  
 
 ***
-<br><br>[$user](/API_docs/constructors/user.html) = \['self' => [Bool](/API_docs/types/Bool.html), 'contact' => [Bool](/API_docs/types/Bool.html), 'mutual_contact' => [Bool](/API_docs/types/Bool.html), 'deleted' => [Bool](/API_docs/types/Bool.html), 'bot' => [Bool](/API_docs/types/Bool.html), 'bot_chat_history' => [Bool](/API_docs/types/Bool.html), 'bot_nochats' => [Bool](/API_docs/types/Bool.html), 'verified' => [Bool](/API_docs/types/Bool.html), 'restricted' => [Bool](/API_docs/types/Bool.html), 'min' => [Bool](/API_docs/types/Bool.html), 'bot_inline_geo' => [Bool](/API_docs/types/Bool.html), 'support' => [Bool](/API_docs/types/Bool.html), 'scam' => [Bool](/API_docs/types/Bool.html), 'apply_min_photo' => [Bool](/API_docs/types/Bool.html), 'fake' => [Bool](/API_docs/types/Bool.html), 'bot_attach_menu' => [Bool](/API_docs/types/Bool.html), 'premium' => [Bool](/API_docs/types/Bool.html), 'attach_menu_enabled' => [Bool](/API_docs/types/Bool.html), 'bot_can_edit' => [Bool](/API_docs/types/Bool.html), 'close_friend' => [Bool](/API_docs/types/Bool.html), 'stories_hidden' => [Bool](/API_docs/types/Bool.html), 'stories_unavailable' => [Bool](/API_docs/types/Bool.html), 'contact_require_premium' => [Bool](/API_docs/types/Bool.html), 'bot_business' => [Bool](/API_docs/types/Bool.html), 'bot_has_main_app' => [Bool](/API_docs/types/Bool.html), 'bot_forum_view' => [Bool](/API_docs/types/Bool.html), 'bot_forum_can_manage_topics' => [Bool](/API_docs/types/Bool.html), 'bot_can_manage_bots' => [Bool](/API_docs/types/Bool.html), 'bot_guestchat' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'first_name' => [string](/API_docs/types/string.html), 'last_name' => [string](/API_docs/types/string.html), 'username' => [string](/API_docs/types/string.html), 'phone' => [string](/API_docs/types/string.html), 'photo' => [UserProfilePhoto](/API_docs/types/UserProfilePhoto.html), 'status' => [UserStatus](/API_docs/types/UserStatus.html), 'bot_info_version' => [int](/API_docs/types/int.html), 'restriction_reason' => \[[RestrictionReason](/API_docs/types/RestrictionReason.html)\], 'bot_inline_placeholder' => [string](/API_docs/types/string.html), 'lang_code' => [string](/API_docs/types/string.html), 'emoji_status' => [EmojiStatus](/API_docs/types/EmojiStatus.html), 'usernames' => \[[Username](/API_docs/types/Username.html)\], 'stories_max_id' => [RecentStory](/API_docs/types/RecentStory.html), 'color' => [PeerColor](/API_docs/types/PeerColor.html), 'profile_color' => [PeerColor](/API_docs/types/PeerColor.html), 'bot_active_users' => [int](/API_docs/types/int.html), 'bot_verification_icon' => [long](/API_docs/types/long.html), 'send_paid_messages_stars' => [long](/API_docs/types/long.html), \];<a name="user"></a>  
+<br><br>[$user](/API_docs/constructors/user.html) = \['self' => [Bool](/API_docs/types/Bool.html), 'contact' => [Bool](/API_docs/types/Bool.html), 'mutual_contact' => [Bool](/API_docs/types/Bool.html), 'deleted' => [Bool](/API_docs/types/Bool.html), 'bot' => [Bool](/API_docs/types/Bool.html), 'bot_chat_history' => [Bool](/API_docs/types/Bool.html), 'bot_nochats' => [Bool](/API_docs/types/Bool.html), 'verified' => [Bool](/API_docs/types/Bool.html), 'restricted' => [Bool](/API_docs/types/Bool.html), 'min' => [Bool](/API_docs/types/Bool.html), 'bot_inline_geo' => [Bool](/API_docs/types/Bool.html), 'support' => [Bool](/API_docs/types/Bool.html), 'scam' => [Bool](/API_docs/types/Bool.html), 'apply_min_photo' => [Bool](/API_docs/types/Bool.html), 'fake' => [Bool](/API_docs/types/Bool.html), 'bot_attach_menu' => [Bool](/API_docs/types/Bool.html), 'premium' => [Bool](/API_docs/types/Bool.html), 'attach_menu_enabled' => [Bool](/API_docs/types/Bool.html), 'bot_can_edit' => [Bool](/API_docs/types/Bool.html), 'close_friend' => [Bool](/API_docs/types/Bool.html), 'stories_hidden' => [Bool](/API_docs/types/Bool.html), 'stories_unavailable' => [Bool](/API_docs/types/Bool.html), 'contact_require_premium' => [Bool](/API_docs/types/Bool.html), 'bot_business' => [Bool](/API_docs/types/Bool.html), 'bot_has_main_app' => [Bool](/API_docs/types/Bool.html), 'bot_forum_view' => [Bool](/API_docs/types/Bool.html), 'bot_forum_can_manage_topics' => [Bool](/API_docs/types/Bool.html), 'bot_can_manage_bots' => [Bool](/API_docs/types/Bool.html), 'bot_guestchat' => [Bool](/API_docs/types/Bool.html), 'bot_guard' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'first_name' => [string](/API_docs/types/string.html), 'last_name' => [string](/API_docs/types/string.html), 'username' => [string](/API_docs/types/string.html), 'phone' => [string](/API_docs/types/string.html), 'photo' => [UserProfilePhoto](/API_docs/types/UserProfilePhoto.html), 'status' => [UserStatus](/API_docs/types/UserStatus.html), 'bot_info_version' => [int](/API_docs/types/int.html), 'restriction_reason' => \[[RestrictionReason](/API_docs/types/RestrictionReason.html)\], 'bot_inline_placeholder' => [string](/API_docs/types/string.html), 'lang_code' => [string](/API_docs/types/string.html), 'emoji_status' => [EmojiStatus](/API_docs/types/EmojiStatus.html), 'usernames' => \[[Username](/API_docs/types/Username.html)\], 'stories_max_id' => [RecentStory](/API_docs/types/RecentStory.html), 'color' => [PeerColor](/API_docs/types/PeerColor.html), 'profile_color' => [PeerColor](/API_docs/types/PeerColor.html), 'bot_active_users' => [int](/API_docs/types/int.html), 'bot_verification_icon' => [long](/API_docs/types/long.html), 'send_paid_messages_stars' => [long](/API_docs/types/long.html), \];<a name="user"></a>  
 
 ***
 <br><br>[$userEmpty](/API_docs/constructors/userEmpty.html) = \['id' => [long](/API_docs/types/long.html), \];<a name="userEmpty"></a>  
@@ -4775,6 +4910,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$webDocumentNoProxy](/API_docs/constructors/webDocumentNoProxy.html) = \['url' => [string](/API_docs/types/string.html), 'size' => [int](/API_docs/types/int.html), 'mime_type' => [string](/API_docs/types/string.html), 'attributes' => \[[DocumentAttribute](/API_docs/types/DocumentAttribute.html)\], \];<a name="webDocumentNoProxy"></a>  
 
 ***
+<br><br>[$webDomainException](/API_docs/constructors/webDomainException.html) = \['domain' => [string](/API_docs/types/string.html), 'url' => [string](/API_docs/types/string.html), 'title' => [string](/API_docs/types/string.html), 'favicon' => [long](/API_docs/types/long.html), \];<a name="webDomainException"></a>  
+
+***
 <br><br>[$webPage](/API_docs/constructors/webPage.html) = \['has_large_media' => [Bool](/API_docs/types/Bool.html), 'video_cover_photo' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'url' => [string](/API_docs/types/string.html), 'display_url' => [string](/API_docs/types/string.html), 'hash' => [int](/API_docs/types/int.html), 'type' => [string](/API_docs/types/string.html), 'site_name' => [string](/API_docs/types/string.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [Photo](/API_docs/types/Photo.html), 'embed_url' => [string](/API_docs/types/string.html), 'embed_type' => [string](/API_docs/types/string.html), 'embed_width' => [int](/API_docs/types/int.html), 'embed_height' => [int](/API_docs/types/int.html), 'duration' => [int](/API_docs/types/int.html), 'author' => [string](/API_docs/types/string.html), 'document' => [Document](/API_docs/types/Document.html), 'cached_page' => [Page](/API_docs/types/Page.html), 'attributes' => \[[WebPageAttribute](/API_docs/types/WebPageAttribute.html)\], \];<a name="webPage"></a>  
 
 ***
@@ -4811,6 +4949,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$webViewMessageSent](/API_docs/constructors/webViewMessageSent.html) = \['msg_id' => [InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html), \];<a name="webViewMessageSent"></a>  
 
 ***
-<br><br>[$webViewResultUrl](/API_docs/constructors/webViewResultUrl.html) = \['fullsize' => [Bool](/API_docs/types/Bool.html), 'fullscreen' => [Bool](/API_docs/types/Bool.html), 'query_id' => [long](/API_docs/types/long.html), 'url' => [string](/API_docs/types/string.html), \];<a name="webViewResultUrl"></a>  
+<br><br>[$webViewResultUrl](/API_docs/constructors/webViewResultUrl.html) = \['fullsize' => [Bool](/API_docs/types/Bool.html), 'fullscreen' => [Bool](/API_docs/types/Bool.html), 'same_origin' => [Bool](/API_docs/types/Bool.html), 'query_id' => [long](/API_docs/types/long.html), 'url' => [string](/API_docs/types/string.html), \];<a name="webViewResultUrl"></a>  
 
 
